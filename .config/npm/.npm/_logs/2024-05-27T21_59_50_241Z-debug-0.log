@@ -1,0 +1,1545 @@
+0 verbose cli /opt/homebrew/Cellar/node/21.7.3/bin/node /opt/homebrew/bin/npm
+1 info using npm@10.5.0
+2 info using node@v21.7.3
+3 timing npm:load:whichnode Completed in 1ms
+4 timing config:load:defaults Completed in 1ms
+5 timing config:load:file:/opt/homebrew/lib/node_modules/npm/npmrc Completed in 1ms
+6 timing config:load:builtin Completed in 1ms
+7 timing config:load:cli Completed in 1ms
+8 timing config:load:env Completed in 0ms
+9 timing config:load:project Completed in 1ms
+10 timing config:load:file:/Users/kermitfrog19/.npmrc Completed in 0ms
+11 timing config:load:user Completed in 1ms
+12 timing config:load:file:/opt/homebrew/etc/npmrc Completed in 0ms
+13 timing config:load:global Completed in 0ms
+14 timing config:load:setEnvs Completed in 0ms
+15 timing config:load Completed in 5ms
+16 timing npm:load:configload Completed in 5ms
+17 timing config:load:flatten Completed in 2ms
+18 timing npm:load:mkdirpcache Completed in 0ms
+19 timing npm:load:mkdirplogs Completed in 0ms
+20 verbose title npm install @mermaid-js/mermaid-cli
+21 verbose argv "install" "--global" "@mermaid-js/mermaid-cli"
+22 timing npm:load:setTitle Completed in 2ms
+23 timing npm:load:display Completed in 1ms
+24 verbose logfile logs-max:10 dir:/Users/kermitfrog19/.npm/_logs/2024-05-27T21_59_50_241Z-
+25 verbose logfile /Users/kermitfrog19/.npm/_logs/2024-05-27T21_59_50_241Z-debug-0.log
+26 timing npm:load:logFile Completed in 4ms
+27 timing npm:load:timers Completed in 0ms
+28 timing npm:load:configScope Completed in 0ms
+29 timing npm:load Completed in 23ms
+30 timing config:load:flatten Completed in 0ms
+31 timing arborist:ctor Completed in 0ms
+32 silly logfile start cleaning logs, removing 1 files
+33 timing idealTree:init Completed in 2ms
+34 timing idealTree:userRequests Completed in 1ms
+35 silly idealTree buildDeps
+36 silly fetch manifest @mermaid-js/mermaid-cli@*
+37 silly logfile done cleaning log files
+38 http fetch GET 200 https://registry.npmjs.org/npm 244ms
+39 http fetch GET 200 https://registry.npmjs.org/@mermaid-js%2fmermaid-cli 253ms (cache miss)
+40 silly placeDep ROOT @mermaid-js/mermaid-cli@10.9.1 OK for:  want: *
+41 silly fetch manifest chalk@^5.0.1
+42 silly fetch manifest commander@^10.0.0
+43 silly fetch manifest mermaid@^10.8.0
+44 silly fetch manifest puppeteer@^19.0.0
+45 http fetch GET 200 https://registry.npmjs.org/commander 74ms (cache miss)
+46 http fetch GET 200 https://registry.npmjs.org/mermaid 91ms (cache miss)
+47 http fetch GET 200 https://registry.npmjs.org/chalk 123ms (cache updated)
+48 http fetch GET 200 https://registry.npmjs.org/puppeteer 260ms (cache miss)
+49 timing idealTree:#root Completed in 567ms
+50 silly placeDep node_modules/@mermaid-js/mermaid-cli chalk@5.3.0 OK for: @mermaid-js/mermaid-cli@10.9.1 want: ^5.0.1
+51 silly placeDep node_modules/@mermaid-js/mermaid-cli commander@10.0.1 OK for: @mermaid-js/mermaid-cli@10.9.1 want: ^10.0.0
+52 silly placeDep node_modules/@mermaid-js/mermaid-cli mermaid@10.9.1 OK for: @mermaid-js/mermaid-cli@10.9.1 want: ^10.8.0
+53 silly placeDep node_modules/@mermaid-js/mermaid-cli puppeteer@19.11.1 OK for: @mermaid-js/mermaid-cli@10.9.1 want: ^19.0.0
+54 silly fetch manifest @braintree/sanitize-url@^6.0.1
+55 silly fetch manifest @types/d3-scale@^4.0.3
+56 silly fetch manifest @types/d3-scale-chromatic@^3.0.0
+57 silly fetch manifest cytoscape@^3.28.1
+58 silly fetch manifest cytoscape-cose-bilkent@^4.1.0
+59 silly fetch manifest d3@^7.4.0
+60 silly fetch manifest d3-sankey@^0.12.3
+61 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-scale 65ms (cache miss)
+62 silly fetch manifest dagre-d3-es@7.0.10
+63 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-scale-chromatic 75ms (cache miss)
+64 silly fetch manifest dayjs@^1.11.7
+65 http fetch GET 200 https://registry.npmjs.org/cytoscape 77ms (cache miss)
+66 silly fetch manifest dompurify@^3.0.5
+67 http fetch GET 200 https://registry.npmjs.org/dagre-d3-es 66ms (cache miss)
+68 silly fetch manifest elkjs@^0.9.0
+69 http fetch GET 200 https://registry.npmjs.org/d3 141ms (cache miss)
+70 silly fetch manifest katex@^0.16.9
+71 http fetch GET 200 https://registry.npmjs.org/dompurify 65ms (cache miss)
+72 silly fetch manifest khroma@^2.0.0
+73 http fetch GET 200 https://registry.npmjs.org/dayjs 76ms (cache miss)
+74 silly fetch manifest lodash-es@^4.17.21
+75 http fetch GET 200 https://registry.npmjs.org/cytoscape-cose-bilkent 154ms (cache miss)
+76 silly fetch manifest mdast-util-from-markdown@^1.3.0
+77 http fetch GET 200 https://registry.npmjs.org/d3-sankey 155ms (cache miss)
+78 silly fetch manifest non-layered-tidy-tree-layout@^2.0.2
+79 http fetch GET 200 https://registry.npmjs.org/elkjs 43ms (cache miss)
+80 silly fetch manifest stylis@^4.1.3
+81 http fetch GET 200 https://registry.npmjs.org/lodash-es 38ms (cache miss)
+82 silly fetch manifest ts-dedent@^2.2.0
+83 http fetch GET 200 https://registry.npmjs.org/non-layered-tidy-tree-layout 40ms (cache miss)
+84 silly fetch manifest uuid@^9.0.0
+85 http fetch GET 200 https://registry.npmjs.org/katex 54ms (cache miss)
+86 silly fetch manifest web-worker@^1.2.0
+87 http fetch GET 200 https://registry.npmjs.org/khroma 59ms (cache miss)
+88 silly fetch manifest cosmiconfig@8.1.3
+89 http fetch GET 200 https://registry.npmjs.org/stylis 59ms (cache miss)
+90 silly fetch manifest https-proxy-agent@5.0.1
+91 http fetch GET 200 https://registry.npmjs.org/uuid 43ms (cache miss)
+92 silly fetch manifest progress@2.0.3
+93 http fetch GET 200 https://registry.npmjs.org/ts-dedent 49ms (cache miss)
+94 silly fetch manifest proxy-from-env@1.1.0
+95 http fetch GET 200 https://registry.npmjs.org/web-worker 50ms (cache miss)
+96 silly fetch manifest puppeteer-core@19.11.1
+97 http fetch GET 200 https://registry.npmjs.org/cosmiconfig 56ms (cache miss)
+98 silly fetch manifest @puppeteer/browsers@0.5.0
+99 http fetch GET 200 https://registry.npmjs.org/progress 38ms (cache miss)
+100 http fetch GET 200 https://registry.npmjs.org/proxy-from-env 38ms (cache miss)
+101 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 51ms (cache miss)
+102 http fetch GET 200 https://registry.npmjs.org/puppeteer-core 68ms (cache miss)
+103 http fetch GET 200 https://registry.npmjs.org/@puppeteer%2fbrowsers 88ms (cache miss)
+104 http fetch GET 200 https://registry.npmjs.org/mdast-util-from-markdown 550ms (cache miss)
+105 http fetch GET 200 https://registry.npmjs.org/@braintree%2fsanitize-url 1139ms (cache miss)
+106 timing idealTree:node_modules/@mermaid-js/mermaid-cli Completed in 1145ms
+107 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/chalk Completed in 0ms
+108 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/commander Completed in 0ms
+109 silly placeDep node_modules/@mermaid-js/mermaid-cli @braintree/sanitize-url@6.0.4 OK for: mermaid@10.9.1 want: ^6.0.1
+110 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/d3-scale@4.0.8 OK for: mermaid@10.9.1 want: ^4.0.3
+111 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/d3-scale-chromatic@3.0.3 OK for: mermaid@10.9.1 want: ^3.0.0
+112 silly placeDep node_modules/@mermaid-js/mermaid-cli cytoscape@3.29.2 OK for: mermaid@10.9.1 want: ^3.28.1
+113 silly placeDep node_modules/@mermaid-js/mermaid-cli cytoscape-cose-bilkent@4.1.0 OK for: mermaid@10.9.1 want: ^4.1.0
+114 silly placeDep node_modules/@mermaid-js/mermaid-cli d3@7.9.0 OK for: mermaid@10.9.1 want: ^7.4.0
+115 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-sankey@0.12.3 OK for: mermaid@10.9.1 want: ^0.12.3
+116 silly placeDep node_modules/@mermaid-js/mermaid-cli dagre-d3-es@7.0.10 OK for: mermaid@10.9.1 want: 7.0.10
+117 silly placeDep node_modules/@mermaid-js/mermaid-cli dayjs@1.11.11 OK for: mermaid@10.9.1 want: ^1.11.7
+118 silly placeDep node_modules/@mermaid-js/mermaid-cli dompurify@3.1.4 OK for: mermaid@10.9.1 want: ^3.0.5
+119 silly placeDep node_modules/@mermaid-js/mermaid-cli elkjs@0.9.3 OK for: mermaid@10.9.1 want: ^0.9.0
+120 silly placeDep node_modules/@mermaid-js/mermaid-cli katex@0.16.10 OK for: mermaid@10.9.1 want: ^0.16.9
+121 silly placeDep node_modules/@mermaid-js/mermaid-cli khroma@2.1.0 OK for: mermaid@10.9.1 want: ^2.0.0
+122 silly placeDep node_modules/@mermaid-js/mermaid-cli lodash-es@4.17.21 OK for: mermaid@10.9.1 want: ^4.17.21
+123 silly placeDep node_modules/@mermaid-js/mermaid-cli mdast-util-from-markdown@1.3.1 OK for: mermaid@10.9.1 want: ^1.3.0
+124 silly placeDep node_modules/@mermaid-js/mermaid-cli non-layered-tidy-tree-layout@2.0.2 OK for: mermaid@10.9.1 want: ^2.0.2
+125 silly placeDep node_modules/@mermaid-js/mermaid-cli stylis@4.3.2 OK for: mermaid@10.9.1 want: ^4.1.3
+126 silly placeDep node_modules/@mermaid-js/mermaid-cli ts-dedent@2.2.0 OK for: mermaid@10.9.1 want: ^2.2.0
+127 silly placeDep node_modules/@mermaid-js/mermaid-cli uuid@9.0.1 OK for: mermaid@10.9.1 want: ^9.0.0
+128 silly placeDep node_modules/@mermaid-js/mermaid-cli web-worker@1.3.0 OK for: mermaid@10.9.1 want: ^1.2.0
+129 silly fetch manifest @types/d3-time@*
+130 silly fetch manifest cose-base@^1.0.0
+131 silly fetch manifest d3-array@3
+132 silly fetch manifest d3-axis@3
+133 silly fetch manifest d3-brush@3
+134 silly fetch manifest d3-chord@3
+135 silly fetch manifest d3-color@3
+136 http fetch GET 200 https://registry.npmjs.org/cose-base 45ms (cache miss)
+137 silly fetch manifest d3-contour@4
+138 http fetch GET 200 https://registry.npmjs.org/d3-axis 48ms (cache miss)
+139 silly fetch manifest d3-delaunay@6
+140 http fetch GET 200 https://registry.npmjs.org/d3-chord 56ms (cache miss)
+141 silly fetch manifest d3-dispatch@3
+142 http fetch GET 200 https://registry.npmjs.org/d3-brush 64ms (cache miss)
+143 silly fetch manifest d3-drag@3
+144 http fetch GET 200 https://registry.npmjs.org/d3-array 67ms (cache miss)
+145 silly fetch manifest d3-dsv@3
+146 http fetch GET 200 https://registry.npmjs.org/d3-color 69ms (cache miss)
+147 silly fetch manifest d3-ease@3
+148 http fetch GET 200 https://registry.npmjs.org/d3-contour 40ms (cache miss)
+149 silly fetch manifest d3-fetch@3
+150 http fetch GET 200 https://registry.npmjs.org/d3-delaunay 45ms (cache miss)
+151 silly fetch manifest d3-force@3
+152 http fetch GET 200 https://registry.npmjs.org/d3-dispatch 44ms (cache miss)
+153 silly fetch manifest d3-format@3
+154 http fetch GET 200 https://registry.npmjs.org/d3-drag 55ms (cache miss)
+155 silly fetch manifest d3-geo@3
+156 http fetch GET 200 https://registry.npmjs.org/d3-dsv 56ms (cache miss)
+157 silly fetch manifest d3-hierarchy@3
+158 http fetch GET 200 https://registry.npmjs.org/d3-ease 80ms (cache miss)
+159 silly fetch manifest d3-interpolate@3
+160 http fetch GET 200 https://registry.npmjs.org/d3-fetch 63ms (cache miss)
+161 silly fetch manifest d3-path@3
+162 http fetch GET 200 https://registry.npmjs.org/d3-format 53ms (cache miss)
+163 silly fetch manifest d3-polygon@3
+164 http fetch GET 200 https://registry.npmjs.org/d3-geo 45ms (cache miss)
+165 silly fetch manifest d3-quadtree@3
+166 http fetch GET 200 https://registry.npmjs.org/d3-force 84ms (cache miss)
+167 silly fetch manifest d3-random@3
+168 http fetch GET 200 https://registry.npmjs.org/d3-hierarchy 68ms (cache miss)
+169 silly fetch manifest d3-scale@4
+170 http fetch GET 200 https://registry.npmjs.org/d3-path 46ms (cache miss)
+171 silly fetch manifest d3-scale-chromatic@3
+172 http fetch GET 200 https://registry.npmjs.org/d3-quadtree 39ms (cache miss)
+173 silly fetch manifest d3-selection@3
+174 http fetch GET 200 https://registry.npmjs.org/d3-polygon 52ms (cache miss)
+175 silly fetch manifest d3-shape@3
+176 http fetch GET 200 https://registry.npmjs.org/d3-interpolate 63ms (cache miss)
+177 silly fetch manifest d3-time@3
+178 http fetch GET 200 https://registry.npmjs.org/d3-scale-chromatic 42ms (cache miss)
+179 silly fetch manifest d3-time-format@4
+180 http fetch GET 200 https://registry.npmjs.org/d3-scale 57ms (cache miss)
+181 silly fetch manifest d3-timer@3
+182 http fetch GET 200 https://registry.npmjs.org/d3-random 79ms (cache miss)
+183 silly fetch manifest d3-transition@3
+184 http fetch GET 200 https://registry.npmjs.org/d3-selection 63ms (cache miss)
+185 silly fetch manifest d3-zoom@3
+186 http fetch GET 200 https://registry.npmjs.org/d3-time 63ms (cache miss)
+187 silly fetch manifest d3-array@1 - 2
+188 silly fetch manifest d3-shape@^1.2.0
+189 http fetch GET 200 https://registry.npmjs.org/d3-shape 72ms (cache miss)
+190 silly fetch manifest commander@^8.3.0
+191 silly fetch manifest @types/mdast@^3.0.0
+192 http fetch GET 200 https://registry.npmjs.org/d3-time-format 46ms (cache miss)
+193 silly fetch manifest @types/unist@^2.0.0
+194 http fetch GET 200 https://registry.npmjs.org/d3-timer 50ms (cache miss)
+195 silly fetch manifest decode-named-character-reference@^1.0.0
+196 http fetch GET 200 https://registry.npmjs.org/d3-transition 62ms (cache miss)
+197 silly fetch manifest mdast-util-to-string@^3.1.0
+198 http fetch GET 200 https://registry.npmjs.org/d3-shape 47ms (cache miss)
+199 silly fetch manifest micromark@^3.0.0
+200 http fetch GET 200 https://registry.npmjs.org/d3-zoom 55ms (cache miss)
+201 silly fetch manifest micromark-util-decode-numeric-character-reference@^1.0.0
+202 http fetch GET 200 https://registry.npmjs.org/decode-named-character-reference 48ms (cache miss)
+203 silly fetch manifest micromark-util-decode-string@^1.0.0
+204 http fetch GET 200 https://registry.npmjs.org/@types%2fmdast 76ms (cache miss)
+205 silly fetch manifest micromark-util-normalize-identifier@^1.0.0
+206 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-string 38ms (cache miss)
+207 silly fetch manifest micromark-util-symbol@^1.0.0
+208 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-numeric-character-reference 38ms (cache miss)
+209 silly fetch manifest micromark-util-types@^1.0.0
+210 http fetch GET 200 https://registry.npmjs.org/micromark 47ms (cache miss)
+211 silly fetch manifest unist-util-stringify-position@^3.0.0
+212 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-string 50ms (cache miss)
+213 silly fetch manifest uvu@^0.5.0
+214 http fetch GET 200 https://registry.npmjs.org/micromark-util-types 36ms (cache miss)
+215 http fetch GET 200 https://registry.npmjs.org/micromark-util-symbol 49ms (cache miss)
+216 http fetch GET 200 https://registry.npmjs.org/micromark-util-normalize-identifier 51ms (cache miss)
+217 http fetch GET 200 https://registry.npmjs.org/unist-util-stringify-position 52ms (cache miss)
+218 http fetch GET 200 https://registry.npmjs.org/uvu 50ms (cache miss)
+219 http fetch GET 200 https://registry.npmjs.org/@types%2fd3-time 1072ms (cache miss)
+220 http fetch GET 200 https://registry.npmjs.org/@types%2funist 1067ms (cache miss)
+221 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/mermaid Completed in 1392ms
+222 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@braintree/sanitize-url Completed in 0ms
+223 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/d3-time@3.0.3 OK for: @types/d3-scale@4.0.8 want: *
+224 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-scale Completed in 1ms
+225 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-scale-chromatic Completed in 0ms
+226 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-time Completed in 0ms
+227 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/cytoscape Completed in 0ms
+228 silly placeDep node_modules/@mermaid-js/mermaid-cli cose-base@1.0.3 OK for: cytoscape-cose-bilkent@4.1.0 want: ^1.0.0
+229 silly fetch manifest layout-base@^1.0.0
+230 http fetch GET 200 https://registry.npmjs.org/layout-base 54ms (cache miss)
+231 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/cytoscape-cose-bilkent Completed in 57ms
+232 silly placeDep node_modules/@mermaid-js/mermaid-cli layout-base@1.0.2 OK for: cose-base@1.0.3 want: ^1.0.0
+233 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/cose-base Completed in 2ms
+234 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-array@3.2.4 OK for: d3@7.9.0 want: 3
+235 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-axis@3.0.0 OK for: d3@7.9.0 want: 3
+236 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-brush@3.0.0 OK for: d3@7.9.0 want: 3
+237 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-chord@3.0.1 OK for: d3@7.9.0 want: 3
+238 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-color@3.1.0 OK for: d3@7.9.0 want: 3
+239 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-contour@4.0.2 OK for: d3@7.9.0 want: 4
+240 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-delaunay@6.0.4 OK for: d3@7.9.0 want: 6
+241 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-dispatch@3.0.1 OK for: d3@7.9.0 want: 3
+242 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-drag@3.0.0 OK for: d3@7.9.0 want: 3
+243 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-dsv@3.0.1 OK for: d3@7.9.0 want: 3
+244 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-ease@3.0.1 OK for: d3@7.9.0 want: 3
+245 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-fetch@3.0.1 OK for: d3@7.9.0 want: 3
+246 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-force@3.0.0 OK for: d3@7.9.0 want: 3
+247 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-format@3.1.0 OK for: d3@7.9.0 want: 3
+248 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-geo@3.1.1 OK for: d3@7.9.0 want: 3
+249 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-hierarchy@3.1.2 OK for: d3@7.9.0 want: 3
+250 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-interpolate@3.0.1 OK for: d3@7.9.0 want: 3
+251 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-path@3.1.0 OK for: d3@7.9.0 want: 3
+252 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-polygon@3.0.1 OK for: d3@7.9.0 want: 3
+253 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-quadtree@3.0.1 OK for: d3@7.9.0 want: 3
+254 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-random@3.0.1 OK for: d3@7.9.0 want: 3
+255 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-scale@4.0.2 OK for: d3@7.9.0 want: 4
+256 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-scale-chromatic@3.1.0 OK for: d3@7.9.0 want: 3
+257 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-selection@3.0.0 OK for: d3@7.9.0 want: 3
+258 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-shape@3.2.0 OK for: d3@7.9.0 want: 3
+259 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-time@3.1.0 OK for: d3@7.9.0 want: 3
+260 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-time-format@4.1.0 OK for: d3@7.9.0 want: 4
+261 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-timer@3.0.1 OK for: d3@7.9.0 want: 3
+262 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-transition@3.0.1 OK for: d3@7.9.0 want: 3
+263 silly placeDep node_modules/@mermaid-js/mermaid-cli d3-zoom@3.0.0 OK for: d3@7.9.0 want: 3
+264 silly fetch manifest internmap@1 - 2
+265 silly fetch manifest d3-dispatch@1 - 3
+266 silly fetch manifest d3-drag@2 - 3
+267 silly fetch manifest d3-interpolate@1 - 3
+268 silly fetch manifest d3-path@1 - 3
+269 silly fetch manifest delaunator@5
+270 silly fetch manifest commander@7
+271 silly fetch manifest iconv-lite@0.6
+272 silly fetch manifest rw@1
+273 silly fetch manifest d3-quadtree@1 - 3
+274 silly fetch manifest d3-timer@1 - 3
+275 silly fetch manifest d3-time@2.1.1 - 3
+276 silly fetch manifest d3-time-format@2 - 4
+277 http fetch GET 200 https://registry.npmjs.org/rw 44ms (cache miss)
+278 http fetch GET 200 https://registry.npmjs.org/internmap 48ms (cache miss)
+279 http fetch GET 200 https://registry.npmjs.org/iconv-lite 49ms (cache revalidated)
+280 http fetch GET 200 https://registry.npmjs.org/delaunator 56ms (cache miss)
+281 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3 Completed in 96ms
+282 silly placeDep node_modules/@mermaid-js/mermaid-cli internmap@2.0.3 OK for: d3-array@3.2.4 want: 1 - 2
+283 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-array Completed in 1ms
+284 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-axis Completed in 0ms
+285 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-brush Completed in 0ms
+286 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-chord Completed in 0ms
+287 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-color Completed in 0ms
+288 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-contour Completed in 0ms
+289 silly placeDep node_modules/@mermaid-js/mermaid-cli delaunator@5.0.1 OK for: d3-delaunay@6.0.4 want: 5
+290 silly fetch manifest robust-predicates@^3.0.2
+291 http fetch GET 200 https://registry.npmjs.org/robust-predicates 72ms (cache miss)
+292 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-delaunay Completed in 74ms
+293 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dispatch Completed in 0ms
+294 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-drag Completed in 0ms
+295 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv commander@7.2.0 OK for: d3-dsv@3.0.1 want: 7
+296 silly placeDep node_modules/@mermaid-js/mermaid-cli iconv-lite@0.6.3 OK for: d3-dsv@3.0.1 want: 0.6
+297 silly placeDep node_modules/@mermaid-js/mermaid-cli rw@1.3.3 OK for: d3-dsv@3.0.1 want: 1
+298 silly fetch manifest safer-buffer@>= 2.1.2 < 3.0.0
+299 http fetch GET 200 https://registry.npmjs.org/safer-buffer 54ms (cache revalidated)
+300 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv Completed in 60ms
+301 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-ease Completed in 0ms
+302 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-fetch Completed in 0ms
+303 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-force Completed in 0ms
+304 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-format Completed in 0ms
+305 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-geo Completed in 0ms
+306 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-hierarchy Completed in 0ms
+307 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-interpolate Completed in 0ms
+308 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-path Completed in 0ms
+309 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-polygon Completed in 0ms
+310 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-quadtree Completed in 0ms
+311 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-random Completed in 0ms
+312 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey d3-array@2.12.1 OK for: d3-sankey@0.12.3 want: 1 - 2
+313 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey d3-shape@1.3.7 OK for: d3-sankey@0.12.3 want: ^1.2.0
+314 silly fetch manifest internmap@^1.0.0
+315 silly fetch manifest d3-path@1
+316 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey Completed in 6ms
+317 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-scale Completed in 0ms
+318 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-scale-chromatic Completed in 0ms
+319 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-selection Completed in 0ms
+320 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-shape Completed in 0ms
+321 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-time Completed in 0ms
+322 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-time-format Completed in 0ms
+323 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-timer Completed in 0ms
+324 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-transition Completed in 0ms
+325 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-zoom Completed in 0ms
+326 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/dagre-d3-es Completed in 0ms
+327 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/dayjs Completed in 0ms
+328 silly placeDep node_modules/@mermaid-js/mermaid-cli robust-predicates@3.0.2 OK for: delaunator@5.0.1 want: ^3.0.2
+329 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/delaunator Completed in 2ms
+330 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/dompurify Completed in 0ms
+331 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/elkjs Completed in 0ms
+332 silly placeDep node_modules/@mermaid-js/mermaid-cli safer-buffer@2.1.2 OK for: iconv-lite@0.6.3 want: >= 2.1.2 < 3.0.0
+333 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/iconv-lite Completed in 1ms
+334 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/internmap Completed in 0ms
+335 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/katex commander@8.3.0 OK for: katex@0.16.10 want: ^8.3.0
+336 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/katex Completed in 1ms
+337 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/khroma Completed in 0ms
+338 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/layout-base Completed in 0ms
+339 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/lodash-es Completed in 0ms
+340 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/mdast@3.0.15 OK for: mdast-util-from-markdown@1.3.1 want: ^3.0.0
+341 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/unist@2.0.10 OK for: mdast-util-from-markdown@1.3.1 want: ^2.0.0
+342 silly placeDep node_modules/@mermaid-js/mermaid-cli decode-named-character-reference@1.0.2 OK for: mdast-util-from-markdown@1.3.1 want: ^1.0.0
+343 silly placeDep node_modules/@mermaid-js/mermaid-cli mdast-util-to-string@3.2.0 OK for: mdast-util-from-markdown@1.3.1 want: ^3.1.0
+344 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark@3.2.0 OK for: mdast-util-from-markdown@1.3.1 want: ^3.0.0
+345 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-decode-numeric-character-reference@1.1.0 OK for: mdast-util-from-markdown@1.3.1 want: ^1.0.0
+346 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-decode-string@1.1.0 OK for: mdast-util-from-markdown@1.3.1 want: ^1.0.0
+347 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-normalize-identifier@1.1.0 OK for: mdast-util-from-markdown@1.3.1 want: ^1.0.0
+348 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-symbol@1.1.0 OK for: mdast-util-from-markdown@1.3.1 want: ^1.0.0
+349 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-types@1.1.0 OK for: mdast-util-from-markdown@1.3.1 want: ^1.0.0
+350 silly placeDep node_modules/@mermaid-js/mermaid-cli unist-util-stringify-position@3.0.3 OK for: mdast-util-from-markdown@1.3.1 want: ^3.0.0
+351 silly placeDep node_modules/@mermaid-js/mermaid-cli uvu@0.5.6 OK for: mdast-util-from-markdown@1.3.1 want: ^0.5.0
+352 silly fetch manifest @types/unist@^2
+353 silly fetch manifest character-entities@^2.0.0
+354 silly fetch manifest @types/debug@^4.0.0
+355 silly fetch manifest debug@^4.0.0
+356 silly fetch manifest micromark-core-commonmark@^1.0.1
+357 silly fetch manifest micromark-factory-space@^1.0.0
+358 silly fetch manifest micromark-util-character@^1.0.0
+359 silly fetch manifest micromark-util-chunked@^1.0.0
+360 http fetch GET 200 https://registry.npmjs.org/micromark-util-character 43ms (cache miss)
+361 silly fetch manifest micromark-util-combine-extensions@^1.0.0
+362 http fetch GET 200 https://registry.npmjs.org/debug 54ms (cache miss)
+363 silly fetch manifest micromark-util-encode@^1.0.0
+364 http fetch GET 200 https://registry.npmjs.org/micromark-core-commonmark 59ms (cache miss)
+365 silly fetch manifest micromark-util-resolve-all@^1.0.0
+366 http fetch GET 200 https://registry.npmjs.org/micromark-factory-space 62ms (cache miss)
+367 silly fetch manifest micromark-util-sanitize-uri@^1.0.0
+368 http fetch GET 200 https://registry.npmjs.org/micromark-util-chunked 62ms (cache miss)
+369 silly fetch manifest micromark-util-subtokenize@^1.0.0
+370 http fetch GET 200 https://registry.npmjs.org/micromark-util-combine-extensions 54ms (cache miss)
+371 silly fetch manifest micromark-util-types@^1.0.1
+372 silly fetch manifest dequal@^2.0.0
+373 http fetch GET 200 https://registry.npmjs.org/micromark-util-subtokenize 41ms (cache miss)
+374 silly fetch manifest diff@^5.0.0
+375 http fetch GET 200 https://registry.npmjs.org/micromark-util-encode 50ms (cache miss)
+376 silly fetch manifest kleur@^4.0.3
+377 http fetch GET 200 https://registry.npmjs.org/micromark-util-resolve-all 51ms (cache miss)
+378 silly fetch manifest sade@^1.7.3
+379 http fetch GET 200 https://registry.npmjs.org/micromark-util-sanitize-uri 52ms (cache miss)
+380 http fetch GET 200 https://registry.npmjs.org/kleur 41ms (cache miss)
+381 http fetch GET 200 https://registry.npmjs.org/diff 44ms (cache miss)
+382 http fetch GET 200 https://registry.npmjs.org/dequal 50ms (cache miss)
+383 http fetch GET 200 https://registry.npmjs.org/sade 52ms (cache miss)
+384 http fetch GET 200 https://registry.npmjs.org/character-entities 613ms (cache miss)
+385 http fetch GET 200 https://registry.npmjs.org/@types%2fdebug 1098ms (cache miss)
+386 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/mdast-util-from-markdown Completed in 1115ms
+387 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/mdast Completed in 0ms
+388 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/unist Completed in 0ms
+389 silly placeDep node_modules/@mermaid-js/mermaid-cli character-entities@2.0.2 OK for: decode-named-character-reference@1.0.2 want: ^2.0.0
+390 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/decode-named-character-reference Completed in 3ms
+391 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/character-entities Completed in 0ms
+392 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/mdast-util-to-string Completed in 0ms
+393 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/debug@4.1.12 OK for: micromark@3.2.0 want: ^4.0.0
+394 silly placeDep node_modules/@mermaid-js/mermaid-cli debug@4.3.4 OK for: micromark@3.2.0 want: ^4.0.0
+395 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-core-commonmark@1.1.0 OK for: micromark@3.2.0 want: ^1.0.1
+396 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-factory-space@1.1.0 OK for: micromark@3.2.0 want: ^1.0.0
+397 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-character@1.2.0 OK for: micromark@3.2.0 want: ^1.0.0
+398 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-chunked@1.1.0 OK for: micromark@3.2.0 want: ^1.0.0
+399 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-combine-extensions@1.1.0 OK for: micromark@3.2.0 want: ^1.0.0
+400 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-encode@1.1.0 OK for: micromark@3.2.0 want: ^1.0.0
+401 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-resolve-all@1.1.0 OK for: micromark@3.2.0 want: ^1.0.0
+402 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-sanitize-uri@1.2.0 OK for: micromark@3.2.0 want: ^1.0.0
+403 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-subtokenize@1.1.0 OK for: micromark@3.2.0 want: ^1.0.0
+404 silly fetch manifest @types/ms@*
+405 silly fetch manifest ms@2.1.2
+406 silly fetch manifest micromark-factory-destination@^1.0.0
+407 silly fetch manifest micromark-factory-label@^1.0.0
+408 silly fetch manifest micromark-factory-title@^1.0.0
+409 silly fetch manifest micromark-factory-whitespace@^1.0.0
+410 silly fetch manifest micromark-util-classify-character@^1.0.0
+411 http fetch GET 200 https://registry.npmjs.org/micromark-factory-destination 46ms (cache miss)
+412 silly fetch manifest micromark-util-html-tag-name@^1.0.0
+413 http fetch GET 200 https://registry.npmjs.org/ms 51ms (cache miss)
+414 http fetch GET 200 https://registry.npmjs.org/micromark-util-classify-character 55ms (cache miss)
+415 http fetch GET 200 https://registry.npmjs.org/micromark-factory-label 59ms (cache miss)
+416 http fetch GET 200 https://registry.npmjs.org/micromark-factory-title 59ms (cache miss)
+417 http fetch GET 200 https://registry.npmjs.org/micromark-factory-whitespace 60ms (cache miss)
+418 http fetch GET 200 https://registry.npmjs.org/micromark-util-html-tag-name 40ms (cache miss)
+419 http fetch GET 200 https://registry.npmjs.org/@types%2fms 1066ms (cache miss)
+420 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark Completed in 1085ms
+421 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/ms@0.7.34 OK for: @types/debug@4.1.12 want: *
+422 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/debug Completed in 1ms
+423 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/ms Completed in 0ms
+424 silly placeDep node_modules/@mermaid-js/mermaid-cli ms@2.1.2 OK for: debug@4.3.4 want: 2.1.2
+425 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/debug Completed in 2ms
+426 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-factory-destination@1.1.0 OK for: micromark-core-commonmark@1.1.0 want: ^1.0.0
+427 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-factory-label@1.1.0 OK for: micromark-core-commonmark@1.1.0 want: ^1.0.0
+428 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-factory-title@1.1.0 OK for: micromark-core-commonmark@1.1.0 want: ^1.0.0
+429 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-factory-whitespace@1.1.0 OK for: micromark-core-commonmark@1.1.0 want: ^1.0.0
+430 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-classify-character@1.1.0 OK for: micromark-core-commonmark@1.1.0 want: ^1.0.0
+431 silly placeDep node_modules/@mermaid-js/mermaid-cli micromark-util-html-tag-name@1.2.0 OK for: micromark-core-commonmark@1.1.0 want: ^1.0.0
+432 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-core-commonmark Completed in 13ms
+433 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-destination Completed in 0ms
+434 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-label Completed in 0ms
+435 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-space Completed in 0ms
+436 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-title Completed in 0ms
+437 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-whitespace Completed in 0ms
+438 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-character Completed in 0ms
+439 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-chunked Completed in 0ms
+440 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-classify-character Completed in 0ms
+441 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-combine-extensions Completed in 0ms
+442 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-decode-numeric-character-reference Completed in 0ms
+443 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-decode-string Completed in 0ms
+444 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-encode Completed in 0ms
+445 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-html-tag-name Completed in 0ms
+446 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-normalize-identifier Completed in 0ms
+447 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-resolve-all Completed in 0ms
+448 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-sanitize-uri Completed in 0ms
+449 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-subtokenize Completed in 0ms
+450 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-symbol Completed in 0ms
+451 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-types Completed in 0ms
+452 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/ms Completed in 0ms
+453 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/non-layered-tidy-tree-layout Completed in 0ms
+454 silly fetch manifest typescript@>= 4.7.4
+455 http fetch GET 200 https://registry.npmjs.org/typescript 491ms (cache miss)
+456 silly placeDep node_modules/@mermaid-js/mermaid-cli @puppeteer/browsers@0.5.0 OK for: puppeteer@19.11.1 want: 0.5.0
+457 silly placeDep node_modules/@mermaid-js/mermaid-cli cosmiconfig@8.1.3 OK for: puppeteer@19.11.1 want: 8.1.3
+458 silly placeDep node_modules/@mermaid-js/mermaid-cli https-proxy-agent@5.0.1 OK for: puppeteer@19.11.1 want: 5.0.1
+459 silly placeDep node_modules/@mermaid-js/mermaid-cli progress@2.0.3 OK for: puppeteer@19.11.1 want: 2.0.3
+460 silly placeDep node_modules/@mermaid-js/mermaid-cli proxy-from-env@1.1.0 OK for: puppeteer@19.11.1 want: 1.1.0
+461 silly placeDep node_modules/@mermaid-js/mermaid-cli puppeteer-core@19.11.1 OK for: puppeteer@19.11.1 want: 19.11.1
+462 silly fetch manifest extract-zip@2.0.1
+463 silly fetch manifest tar-fs@2.1.1
+464 silly fetch manifest unbzip2-stream@1.4.3
+465 silly fetch manifest yargs@17.7.1
+466 silly fetch manifest import-fresh@^3.2.1
+467 silly fetch manifest js-yaml@^4.1.0
+468 silly fetch manifest parse-json@^5.0.0
+469 http fetch GET 200 https://registry.npmjs.org/extract-zip 41ms (cache miss)
+470 silly fetch manifest path-type@^4.0.0
+471 http fetch GET 200 https://registry.npmjs.org/unbzip2-stream 42ms (cache miss)
+472 silly fetch manifest agent-base@6
+473 http fetch GET 200 https://registry.npmjs.org/js-yaml 52ms (cache miss)
+474 silly fetch manifest chromium-bidi@0.4.7
+475 http fetch GET 200 https://registry.npmjs.org/parse-json 58ms (cache miss)
+476 silly fetch manifest cross-fetch@3.1.5
+477 http fetch GET 200 https://registry.npmjs.org/tar-fs 63ms (cache miss)
+478 silly fetch manifest devtools-protocol@0.0.1107588
+479 http fetch GET 200 https://registry.npmjs.org/import-fresh 70ms (cache miss)
+480 silly fetch manifest ws@8.13.0
+481 http fetch GET 200 https://registry.npmjs.org/yargs 74ms (cache miss)
+482 http fetch GET 200 https://registry.npmjs.org/path-type 42ms (cache miss)
+483 http fetch GET 200 https://registry.npmjs.org/agent-base 47ms (cache miss)
+484 http fetch GET 200 https://registry.npmjs.org/chromium-bidi 52ms (cache miss)
+485 http fetch GET 200 https://registry.npmjs.org/cross-fetch 64ms (cache miss)
+486 http fetch GET 200 https://registry.npmjs.org/ws 133ms (cache miss)
+487 http fetch GET 200 https://registry.npmjs.org/devtools-protocol 202ms (cache miss)
+488 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer Completed in 870ms
+489 silly placeDep node_modules/@mermaid-js/mermaid-cli extract-zip@2.0.1 OK for: @puppeteer/browsers@0.5.0 want: 2.0.1
+490 silly placeDep node_modules/@mermaid-js/mermaid-cli tar-fs@2.1.1 OK for: @puppeteer/browsers@0.5.0 want: 2.1.1
+491 silly placeDep node_modules/@mermaid-js/mermaid-cli unbzip2-stream@1.4.3 OK for: @puppeteer/browsers@0.5.0 want: 1.4.3
+492 silly placeDep node_modules/@mermaid-js/mermaid-cli yargs@17.7.1 OK for: @puppeteer/browsers@0.5.0 want: 17.7.1
+493 silly fetch manifest get-stream@^5.1.0
+494 silly fetch manifest yauzl@^2.10.0
+495 silly fetch manifest @types/yauzl@^2.9.1
+496 silly fetch manifest chownr@^1.1.1
+497 silly fetch manifest mkdirp-classic@^0.5.2
+498 silly fetch manifest pump@^3.0.0
+499 silly fetch manifest tar-stream@^2.1.4
+500 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic 37ms (cache miss)
+501 silly fetch manifest buffer@^5.2.1
+502 http fetch GET 200 https://registry.npmjs.org/chownr 40ms (cache miss)
+503 silly fetch manifest through@^2.3.8
+504 http fetch GET 200 https://registry.npmjs.org/tar-stream 43ms (cache miss)
+505 silly fetch manifest cliui@^8.0.1
+506 http fetch GET 200 https://registry.npmjs.org/pump 45ms (cache miss)
+507 silly fetch manifest escalade@^3.1.1
+508 http fetch GET 200 https://registry.npmjs.org/@types%2fyauzl 51ms (cache miss)
+509 silly fetch manifest get-caller-file@^2.0.5
+510 http fetch GET 200 https://registry.npmjs.org/get-stream 53ms (cache miss)
+511 silly fetch manifest require-directory@^2.1.1
+512 http fetch GET 200 https://registry.npmjs.org/yauzl 67ms (cache miss)
+513 silly fetch manifest string-width@^4.2.3
+514 http fetch GET 200 https://registry.npmjs.org/through 41ms (cache revalidated)
+515 silly fetch manifest y18n@^5.0.5
+516 http fetch GET 200 https://registry.npmjs.org/buffer 45ms (cache miss)
+517 silly fetch manifest yargs-parser@^21.1.1
+518 http fetch GET 200 https://registry.npmjs.org/escalade 41ms (cache miss)
+519 http fetch GET 200 https://registry.npmjs.org/require-directory 38ms (cache miss)
+520 http fetch GET 200 https://registry.npmjs.org/cliui 53ms (cache miss)
+521 http fetch GET 200 https://registry.npmjs.org/get-caller-file 52ms (cache miss)
+522 http fetch GET 200 https://registry.npmjs.org/string-width 36ms (cache revalidated)
+523 http fetch GET 200 https://registry.npmjs.org/y18n 57ms (cache miss)
+524 http fetch GET 200 https://registry.npmjs.org/yargs-parser 54ms (cache miss)
+525 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers Completed in 147ms
+526 silly placeDep node_modules/@mermaid-js/mermaid-cli import-fresh@3.3.0 OK for: cosmiconfig@8.1.3 want: ^3.2.1
+527 silly placeDep node_modules/@mermaid-js/mermaid-cli js-yaml@4.1.0 OK for: cosmiconfig@8.1.3 want: ^4.1.0
+528 silly placeDep node_modules/@mermaid-js/mermaid-cli parse-json@5.2.0 OK for: cosmiconfig@8.1.3 want: ^5.0.0
+529 silly placeDep node_modules/@mermaid-js/mermaid-cli path-type@4.0.0 OK for: cosmiconfig@8.1.3 want: ^4.0.0
+530 silly fetch manifest parent-module@^1.0.0
+531 silly fetch manifest resolve-from@^4.0.0
+532 silly fetch manifest argparse@^2.0.1
+533 silly fetch manifest @babel/code-frame@^7.0.0
+534 silly fetch manifest error-ex@^1.3.1
+535 silly fetch manifest json-parse-even-better-errors@^2.3.0
+536 silly fetch manifest lines-and-columns@^1.1.6
+537 http fetch GET 200 https://registry.npmjs.org/resolve-from 35ms (cache miss)
+538 http fetch GET 200 https://registry.npmjs.org/argparse 37ms (cache miss)
+539 http fetch GET 200 https://registry.npmjs.org/json-parse-even-better-errors 41ms (cache miss)
+540 http fetch GET 200 https://registry.npmjs.org/error-ex 43ms (cache miss)
+541 http fetch GET 200 https://registry.npmjs.org/lines-and-columns 43ms (cache miss)
+542 http fetch GET 200 https://registry.npmjs.org/@babel%2fcode-frame 53ms (cache miss)
+543 http fetch GET 200 https://registry.npmjs.org/parent-module 56ms (cache miss)
+544 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/cosmiconfig Completed in 57ms
+545 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/yauzl@2.10.3 OK for: extract-zip@2.0.1 want: ^2.9.1
+546 silly placeDep node_modules/@mermaid-js/mermaid-cli get-stream@5.2.0 OK for: extract-zip@2.0.1 want: ^5.1.0
+547 silly placeDep node_modules/@mermaid-js/mermaid-cli yauzl@2.10.0 OK for: extract-zip@2.0.1 want: ^2.10.0
+548 silly fetch manifest @types/node@*
+549 silly fetch manifest fd-slicer@~1.1.0
+550 silly fetch manifest buffer-crc32@~0.2.3
+551 http fetch GET 200 https://registry.npmjs.org/buffer-crc32 38ms (cache miss)
+552 http fetch GET 200 https://registry.npmjs.org/fd-slicer 48ms (cache miss)
+553 http fetch GET 200 https://registry.npmjs.org/@types%2fnode 173ms (cache miss)
+554 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/extract-zip Completed in 219ms
+555 silly placeDep node_modules/@mermaid-js/mermaid-cli @types/node@20.12.12 OK for: @types/yauzl@2.10.3 want: *
+556 silly fetch manifest undici-types@~5.26.4
+557 http fetch GET 200 https://registry.npmjs.org/undici-types 52ms (cache miss)
+558 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/yauzl Completed in 53ms
+559 silly placeDep node_modules/@mermaid-js/mermaid-cli undici-types@5.26.5 OK for: @types/node@20.12.12 want: ~5.26.4
+560 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/node Completed in 1ms
+561 silly placeDep node_modules/@mermaid-js/mermaid-cli pump@3.0.0 OK for: get-stream@5.2.0 want: ^3.0.0
+562 silly fetch manifest end-of-stream@^1.1.0
+563 silly fetch manifest once@^1.3.1
+564 http fetch GET 200 https://registry.npmjs.org/end-of-stream 42ms (cache miss)
+565 http fetch GET 200 https://registry.npmjs.org/once 74ms (cache revalidated)
+566 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/get-stream Completed in 75ms
+567 silly placeDep node_modules/@mermaid-js/mermaid-cli agent-base@6.0.2 OK for: https-proxy-agent@5.0.1 want: 6
+568 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/https-proxy-agent Completed in 1ms
+569 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/agent-base Completed in 0ms
+570 silly placeDep node_modules/@mermaid-js/mermaid-cli parent-module@1.0.1 OK for: import-fresh@3.3.0 want: ^1.0.0
+571 silly placeDep node_modules/@mermaid-js/mermaid-cli resolve-from@4.0.0 OK for: import-fresh@3.3.0 want: ^4.0.0
+572 silly fetch manifest callsites@^3.0.0
+573 http fetch GET 200 https://registry.npmjs.org/callsites 37ms (cache miss)
+574 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/import-fresh Completed in 38ms
+575 silly placeDep node_modules/@mermaid-js/mermaid-cli argparse@2.0.1 OK for: js-yaml@4.1.0 want: ^2.0.1
+576 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/js-yaml Completed in 1ms
+577 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/argparse Completed in 0ms
+578 silly placeDep node_modules/@mermaid-js/mermaid-cli callsites@3.1.0 OK for: parent-module@1.0.1 want: ^3.0.0
+579 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/parent-module Completed in 1ms
+580 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/callsites Completed in 0ms
+581 silly placeDep node_modules/@mermaid-js/mermaid-cli @babel/code-frame@7.24.6 OK for: parse-json@5.2.0 want: ^7.0.0
+582 silly placeDep node_modules/@mermaid-js/mermaid-cli error-ex@1.3.2 OK for: parse-json@5.2.0 want: ^1.3.1
+583 silly placeDep node_modules/@mermaid-js/mermaid-cli json-parse-even-better-errors@2.3.1 OK for: parse-json@5.2.0 want: ^2.3.0
+584 silly placeDep node_modules/@mermaid-js/mermaid-cli lines-and-columns@1.2.4 OK for: parse-json@5.2.0 want: ^1.1.6
+585 silly fetch manifest @babel/highlight@^7.24.6
+586 silly fetch manifest picocolors@^1.0.0
+587 silly fetch manifest is-arrayish@^0.2.1
+588 http fetch GET 200 https://registry.npmjs.org/picocolors 40ms (cache miss)
+589 http fetch GET 200 https://registry.npmjs.org/is-arrayish 53ms (cache miss)
+590 http fetch GET 200 https://registry.npmjs.org/@babel%2fhighlight 53ms (cache miss)
+591 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/parse-json Completed in 56ms
+592 silly placeDep node_modules/@mermaid-js/mermaid-cli @babel/highlight@7.24.6 OK for: @babel/code-frame@7.24.6 want: ^7.24.6
+593 silly placeDep node_modules/@mermaid-js/mermaid-cli picocolors@1.0.1 OK for: @babel/code-frame@7.24.6 want: ^1.0.0
+594 silly fetch manifest @babel/helper-validator-identifier@^7.24.6
+595 silly fetch manifest chalk@^2.4.2
+596 silly fetch manifest js-tokens@^4.0.0
+597 http fetch GET 200 https://registry.npmjs.org/js-tokens 38ms (cache miss)
+598 http fetch GET 200 https://registry.npmjs.org/@babel%2fhelper-validator-identifier 84ms (cache miss)
+599 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/code-frame Completed in 88ms
+600 silly placeDep node_modules/@mermaid-js/mermaid-cli @babel/helper-validator-identifier@7.24.6 OK for: @babel/highlight@7.24.6 want: ^7.24.6
+601 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight chalk@2.4.2 OK for: @babel/highlight@7.24.6 want: ^2.4.2
+602 silly placeDep node_modules/@mermaid-js/mermaid-cli js-tokens@4.0.0 OK for: @babel/highlight@7.24.6 want: ^4.0.0
+603 silly fetch manifest ansi-styles@^3.2.1
+604 silly fetch manifest escape-string-regexp@^1.0.5
+605 silly fetch manifest supports-color@^5.3.0
+606 http fetch GET 200 https://registry.npmjs.org/escape-string-regexp 39ms (cache revalidated)
+607 http fetch GET 200 https://registry.npmjs.org/supports-color 44ms (cache revalidated)
+608 http fetch GET 200 https://registry.npmjs.org/ansi-styles 49ms (cache revalidated)
+609 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight Completed in 54ms
+610 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/helper-validator-identifier Completed in 0ms
+611 silly placeDep node_modules/@mermaid-js/mermaid-cli is-arrayish@0.2.1 OK for: error-ex@1.3.2 want: ^0.2.1
+612 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/error-ex Completed in 1ms
+613 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/is-arrayish Completed in 0ms
+614 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/js-tokens Completed in 0ms
+615 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/json-parse-even-better-errors Completed in 0ms
+616 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/lines-and-columns Completed in 0ms
+617 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/path-type Completed in 0ms
+618 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/picocolors Completed in 0ms
+619 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/progress Completed in 0ms
+620 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/proxy-from-env Completed in 0ms
+621 silly placeDep node_modules/@mermaid-js/mermaid-cli end-of-stream@1.4.4 OK for: pump@3.0.0 want: ^1.1.0
+622 silly placeDep node_modules/@mermaid-js/mermaid-cli once@1.4.0 OK for: pump@3.0.0 want: ^1.3.1
+623 silly fetch manifest once@^1.4.0
+624 silly fetch manifest wrappy@1
+625 http fetch GET 200 https://registry.npmjs.org/wrappy 45ms (cache revalidated)
+626 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/pump Completed in 48ms
+627 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/end-of-stream Completed in 0ms
+628 silly placeDep node_modules/@mermaid-js/mermaid-cli wrappy@1.0.2 OK for: once@1.4.0 want: 1
+629 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/once Completed in 1ms
+630 silly fetch manifest bufferutil@^4.0.1
+631 http fetch GET 200 https://registry.npmjs.org/bufferutil 53ms (cache miss)
+632 silly fetch manifest utf-8-validate@>=5.0.2
+633 http fetch GET 200 https://registry.npmjs.org/utf-8-validate 53ms (cache miss)
+634 silly placeDep node_modules/@mermaid-js/mermaid-cli chromium-bidi@0.4.7 OK for: puppeteer-core@19.11.1 want: 0.4.7
+635 silly placeDep node_modules/@mermaid-js/mermaid-cli devtools-protocol@0.0.1107588 OK for: chromium-bidi@0.4.7 want: *
+636 silly placeDep node_modules/@mermaid-js/mermaid-cli cross-fetch@3.1.5 OK for: puppeteer-core@19.11.1 want: 3.1.5
+637 silly placeDep node_modules/@mermaid-js/mermaid-cli ws@8.13.0 OK for: puppeteer-core@19.11.1 want: 8.13.0
+638 silly fetch manifest mitt@3.0.0
+639 silly fetch manifest node-fetch@2.6.7
+640 http fetch GET 200 https://registry.npmjs.org/node-fetch 55ms (cache miss)
+641 http fetch GET 200 https://registry.npmjs.org/mitt 69ms (cache miss)
+642 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core Completed in 186ms
+643 silly placeDep node_modules/@mermaid-js/mermaid-cli mitt@3.0.0 OK for: chromium-bidi@0.4.7 want: 3.0.0
+644 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/chromium-bidi Completed in 1ms
+645 silly fetch manifest encoding@^0.1.0
+646 http fetch GET 200 https://registry.npmjs.org/encoding 60ms (cache miss)
+647 silly placeDep node_modules/@mermaid-js/mermaid-cli node-fetch@2.6.7 OK for: cross-fetch@3.1.5 want: 2.6.7
+648 silly fetch manifest whatwg-url@^5.0.0
+649 http fetch GET 200 https://registry.npmjs.org/whatwg-url 40ms (cache miss)
+650 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/cross-fetch Completed in 108ms
+651 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/devtools-protocol Completed in 0ms
+652 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/mitt Completed in 0ms
+653 silly placeDep node_modules/@mermaid-js/mermaid-cli whatwg-url@5.0.0 OK for: node-fetch@2.6.7 want: ^5.0.0
+654 silly fetch manifest tr46@~0.0.3
+655 silly fetch manifest webidl-conversions@^3.0.0
+656 http fetch GET 200 https://registry.npmjs.org/webidl-conversions 45ms (cache miss)
+657 http fetch GET 200 https://registry.npmjs.org/tr46 59ms (cache miss)
+658 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/node-fetch Completed in 63ms
+659 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/resolve-from Completed in 1ms
+660 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/robust-predicates Completed in 0ms
+661 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/rw Completed in 0ms
+662 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/safer-buffer Completed in 0ms
+663 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/stylis Completed in 0ms
+664 silly placeDep node_modules/@mermaid-js/mermaid-cli chownr@1.1.4 OK for: tar-fs@2.1.1 want: ^1.1.1
+665 silly placeDep node_modules/@mermaid-js/mermaid-cli mkdirp-classic@0.5.3 OK for: tar-fs@2.1.1 want: ^0.5.2
+666 silly placeDep node_modules/@mermaid-js/mermaid-cli tar-stream@2.2.0 OK for: tar-fs@2.1.1 want: ^2.1.4
+667 silly fetch manifest bl@^4.0.3
+668 silly fetch manifest fs-constants@^1.0.0
+669 silly fetch manifest inherits@^2.0.3
+670 silly fetch manifest readable-stream@^3.1.1
+671 http fetch GET 200 https://registry.npmjs.org/inherits 48ms (cache revalidated)
+672 http fetch GET 200 https://registry.npmjs.org/fs-constants 53ms (cache miss)
+673 http fetch GET 200 https://registry.npmjs.org/bl 54ms (cache miss)
+674 http fetch GET 200 https://registry.npmjs.org/readable-stream 57ms (cache miss)
+675 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/tar-fs Completed in 68ms
+676 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/chownr Completed in 0ms
+677 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/mkdirp-classic Completed in 0ms
+678 silly placeDep node_modules/@mermaid-js/mermaid-cli bl@4.1.0 OK for: tar-stream@2.2.0 want: ^4.0.3
+679 silly placeDep node_modules/@mermaid-js/mermaid-cli fs-constants@1.0.0 OK for: tar-stream@2.2.0 want: ^1.0.0
+680 silly placeDep node_modules/@mermaid-js/mermaid-cli inherits@2.0.4 OK for: tar-stream@2.2.0 want: ^2.0.3
+681 silly placeDep node_modules/@mermaid-js/mermaid-cli readable-stream@3.6.2 OK for: tar-stream@2.2.0 want: ^3.1.1
+682 silly fetch manifest buffer@^5.5.0
+683 silly fetch manifest inherits@^2.0.4
+684 silly fetch manifest readable-stream@^3.4.0
+685 silly fetch manifest string_decoder@^1.1.1
+686 silly fetch manifest util-deprecate@^1.0.1
+687 http fetch GET 200 https://registry.npmjs.org/util-deprecate 37ms (cache miss)
+688 http fetch GET 200 https://registry.npmjs.org/string_decoder 53ms (cache miss)
+689 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/tar-stream Completed in 59ms
+690 silly placeDep node_modules/@mermaid-js/mermaid-cli buffer@5.7.1 OK for: bl@4.1.0 want: ^5.5.0
+691 silly fetch manifest base64-js@^1.3.1
+692 silly fetch manifest ieee754@^1.1.13
+693 http fetch GET 200 https://registry.npmjs.org/base64-js 41ms (cache miss)
+694 http fetch GET 200 https://registry.npmjs.org/ieee754 60ms (cache miss)
+695 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/bl Completed in 62ms
+696 silly placeDep node_modules/@mermaid-js/mermaid-cli base64-js@1.5.1 OK for: buffer@5.7.1 want: ^1.3.1
+697 silly placeDep node_modules/@mermaid-js/mermaid-cli ieee754@1.2.1 OK for: buffer@5.7.1 want: ^1.1.13
+698 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/buffer Completed in 2ms
+699 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/base64-js Completed in 0ms
+700 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/fs-constants Completed in 0ms
+701 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/ieee754 Completed in 0ms
+702 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/inherits Completed in 0ms
+703 silly placeDep node_modules/@mermaid-js/mermaid-cli string_decoder@1.3.0 OK for: readable-stream@3.6.2 want: ^1.1.1
+704 silly placeDep node_modules/@mermaid-js/mermaid-cli util-deprecate@1.0.2 OK for: readable-stream@3.6.2 want: ^1.0.1
+705 silly fetch manifest safe-buffer@~5.2.0
+706 http fetch GET 200 https://registry.npmjs.org/safe-buffer 43ms (cache miss)
+707 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/readable-stream Completed in 46ms
+708 silly placeDep node_modules/@mermaid-js/mermaid-cli safe-buffer@5.2.1 OK for: string_decoder@1.3.0 want: ~5.2.0
+709 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/string_decoder Completed in 1ms
+710 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/safe-buffer Completed in 0ms
+711 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/ts-dedent Completed in 0ms
+712 silly placeDep node_modules/@mermaid-js/mermaid-cli through@2.3.8 OK for: unbzip2-stream@1.4.3 want: ^2.3.8
+713 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/unbzip2-stream Completed in 1ms
+714 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/through Completed in 0ms
+715 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/undici-types Completed in 0ms
+716 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/unist-util-stringify-position Completed in 0ms
+717 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/util-deprecate Completed in 0ms
+718 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/uuid Completed in 0ms
+719 silly placeDep node_modules/@mermaid-js/mermaid-cli dequal@2.0.3 OK for: uvu@0.5.6 want: ^2.0.0
+720 silly placeDep node_modules/@mermaid-js/mermaid-cli diff@5.2.0 OK for: uvu@0.5.6 want: ^5.0.0
+721 silly placeDep node_modules/@mermaid-js/mermaid-cli kleur@4.1.5 OK for: uvu@0.5.6 want: ^4.0.3
+722 silly placeDep node_modules/@mermaid-js/mermaid-cli sade@1.8.1 OK for: uvu@0.5.6 want: ^1.7.3
+723 silly fetch manifest mri@^1.1.0
+724 http fetch GET 200 https://registry.npmjs.org/mri 60ms (cache miss)
+725 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/uvu Completed in 65ms
+726 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/dequal Completed in 0ms
+727 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/diff Completed in 0ms
+728 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/kleur Completed in 0ms
+729 silly placeDep node_modules/@mermaid-js/mermaid-cli mri@1.2.0 OK for: sade@1.8.1 want: ^1.1.0
+730 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/sade Completed in 1ms
+731 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/mri Completed in 0ms
+732 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/web-worker Completed in 0ms
+733 silly placeDep node_modules/@mermaid-js/mermaid-cli tr46@0.0.3 OK for: whatwg-url@5.0.0 want: ~0.0.3
+734 silly placeDep node_modules/@mermaid-js/mermaid-cli webidl-conversions@3.0.1 OK for: whatwg-url@5.0.0 want: ^3.0.0
+735 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/whatwg-url Completed in 3ms
+736 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/tr46 Completed in 0ms
+737 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/webidl-conversions Completed in 0ms
+738 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/wrappy Completed in 0ms
+739 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/ws Completed in 0ms
+740 silly placeDep node_modules/@mermaid-js/mermaid-cli cliui@8.0.1 OK for: yargs@17.7.1 want: ^8.0.1
+741 silly placeDep node_modules/@mermaid-js/mermaid-cli escalade@3.1.2 OK for: yargs@17.7.1 want: ^3.1.1
+742 silly placeDep node_modules/@mermaid-js/mermaid-cli get-caller-file@2.0.5 OK for: yargs@17.7.1 want: ^2.0.5
+743 silly placeDep node_modules/@mermaid-js/mermaid-cli require-directory@2.1.1 OK for: yargs@17.7.1 want: ^2.1.1
+744 silly placeDep node_modules/@mermaid-js/mermaid-cli string-width@4.2.3 OK for: yargs@17.7.1 want: ^4.2.3
+745 silly placeDep node_modules/@mermaid-js/mermaid-cli y18n@5.0.8 OK for: yargs@17.7.1 want: ^5.0.5
+746 silly placeDep node_modules/@mermaid-js/mermaid-cli yargs-parser@21.1.1 OK for: yargs@17.7.1 want: ^21.1.1
+747 silly fetch manifest string-width@^4.2.0
+748 silly fetch manifest strip-ansi@^6.0.1
+749 silly fetch manifest wrap-ansi@^7.0.0
+750 silly fetch manifest emoji-regex@^8.0.0
+751 silly fetch manifest is-fullwidth-code-point@^3.0.0
+752 http fetch GET 200 https://registry.npmjs.org/is-fullwidth-code-point 45ms (cache revalidated)
+753 http fetch GET 200 https://registry.npmjs.org/strip-ansi 48ms (cache revalidated)
+754 http fetch GET 200 https://registry.npmjs.org/wrap-ansi 49ms (cache revalidated)
+755 http fetch GET 200 https://registry.npmjs.org/emoji-regex 49ms (cache miss)
+756 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/yargs Completed in 62ms
+757 silly placeDep node_modules/@mermaid-js/mermaid-cli strip-ansi@6.0.1 OK for: cliui@8.0.1 want: ^6.0.1
+758 silly placeDep node_modules/@mermaid-js/mermaid-cli wrap-ansi@7.0.0 OK for: cliui@8.0.1 want: ^7.0.0
+759 silly fetch manifest ansi-regex@^5.0.1
+760 silly fetch manifest ansi-styles@^4.0.0
+761 http fetch GET 200 https://registry.npmjs.org/ansi-regex 40ms (cache revalidated)
+762 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/cliui Completed in 46ms
+763 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/escalade Completed in 0ms
+764 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/get-caller-file Completed in 0ms
+765 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/require-directory Completed in 0ms
+766 silly placeDep node_modules/@mermaid-js/mermaid-cli emoji-regex@8.0.0 OK for: string-width@4.2.3 want: ^8.0.0
+767 silly placeDep node_modules/@mermaid-js/mermaid-cli is-fullwidth-code-point@3.0.0 OK for: string-width@4.2.3 want: ^3.0.0
+768 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/string-width Completed in 2ms
+769 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/emoji-regex Completed in 0ms
+770 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/is-fullwidth-code-point Completed in 0ms
+771 silly placeDep node_modules/@mermaid-js/mermaid-cli ansi-regex@5.0.1 OK for: strip-ansi@6.0.1 want: ^5.0.1
+772 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/strip-ansi Completed in 2ms
+773 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/ansi-regex Completed in 0ms
+774 silly placeDep node_modules/@mermaid-js/mermaid-cli ansi-styles@4.3.0 OK for: wrap-ansi@7.0.0 want: ^4.0.0
+775 silly fetch manifest color-convert@^2.0.1
+776 http fetch GET 200 https://registry.npmjs.org/color-convert 39ms (cache revalidated)
+777 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/wrap-ansi Completed in 44ms
+778 silly placeDep node_modules/@mermaid-js/mermaid-cli color-convert@2.0.1 OK for: ansi-styles@4.3.0 want: ^2.0.1
+779 silly fetch manifest color-name@~1.1.4
+780 http fetch GET 200 https://registry.npmjs.org/color-name 40ms (cache revalidated)
+781 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/ansi-styles Completed in 43ms
+782 silly placeDep node_modules/@mermaid-js/mermaid-cli color-name@1.1.4 OK for: color-convert@2.0.1 want: ~1.1.4
+783 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/color-convert Completed in 1ms
+784 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/color-name Completed in 0ms
+785 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/y18n Completed in 0ms
+786 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/yargs-parser Completed in 0ms
+787 silly placeDep node_modules/@mermaid-js/mermaid-cli buffer-crc32@0.2.13 OK for: yauzl@2.10.0 want: ~0.2.3
+788 silly placeDep node_modules/@mermaid-js/mermaid-cli fd-slicer@1.1.0 OK for: yauzl@2.10.0 want: ~1.1.0
+789 silly fetch manifest pend@~1.2.0
+790 http fetch GET 200 https://registry.npmjs.org/pend 52ms (cache miss)
+791 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/yauzl Completed in 56ms
+792 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/buffer-crc32 Completed in 0ms
+793 silly placeDep node_modules/@mermaid-js/mermaid-cli pend@1.2.0 OK for: fd-slicer@1.1.0 want: ~1.2.0
+794 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/fd-slicer Completed in 1ms
+795 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/pend Completed in 0ms
+796 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight ansi-styles@3.2.1 OK for: chalk@2.4.2 want: ^3.2.1
+797 silly placeDep node_modules/@mermaid-js/mermaid-cli escape-string-regexp@1.0.5 OK for: chalk@2.4.2 want: ^1.0.5
+798 silly placeDep node_modules/@mermaid-js/mermaid-cli supports-color@5.5.0 OK for: chalk@2.4.2 want: ^5.3.0
+799 silly fetch manifest color-convert@^1.9.0
+800 silly fetch manifest has-flag@^3.0.0
+801 http fetch GET 200 https://registry.npmjs.org/has-flag 42ms (cache revalidated)
+802 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/chalk Completed in 46ms
+803 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/escape-string-regexp Completed in 0ms
+804 silly placeDep node_modules/@mermaid-js/mermaid-cli has-flag@3.0.0 OK for: supports-color@5.5.0 want: ^3.0.0
+805 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/supports-color Completed in 1ms
+806 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/has-flag Completed in 0ms
+807 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight color-convert@1.9.3 OK for: ansi-styles@3.2.1 want: ^1.9.0
+808 silly fetch manifest color-name@1.1.3
+809 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/ansi-styles Completed in 2ms
+810 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight color-name@1.1.3 OK for: color-convert@1.9.3 want: 1.1.3
+811 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/color-convert Completed in 1ms
+812 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/color-name Completed in 0ms
+813 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv/node_modules/commander Completed in 0ms
+814 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey internmap@1.0.1 OK for: d3-array@2.12.1 want: ^1.0.0
+815 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-array Completed in 1ms
+816 silly placeDep node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey d3-path@1.0.9 OK for: d3-shape@1.3.7 want: 1
+817 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-shape Completed in 2ms
+818 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-path Completed in 0ms
+819 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/internmap Completed in 0ms
+820 timing idealTree:node_modules/@mermaid-js/mermaid-cli/node_modules/katex/node_modules/commander Completed in 0ms
+821 timing idealTree:buildDeps Completed in 8323ms
+822 timing idealTree:fixDepFlags Completed in 3ms
+823 timing idealTree Completed in 8332ms
+824 timing reify:loadTrees Completed in 8335ms
+825 timing reify:diffTrees Completed in 5ms
+826 silly reify moves {}
+827 timing reify:retireShallow Completed in 3ms
+828 timing reify:createSparse Completed in 17ms
+829 timing reify:loadBundles Completed in 0ms
+830 silly tarball no local data for @mermaid-js/mermaid-cli@https://registry.npmjs.org/@mermaid-js/mermaid-cli/-/mermaid-cli-10.9.1.tgz. Extracting by manifest.
+831 silly tarball no local data for wrap-ansi@https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz. Extracting by manifest.
+832 silly tarball no local data for yargs-parser@https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz. Extracting by manifest.
+833 silly tarball no local data for escalade@https://registry.npmjs.org/escalade/-/escalade-3.1.2.tgz. Extracting by manifest.
+834 silly tarball no local data for require-directory@https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz. Extracting by manifest.
+835 silly tarball no local data for webidl-conversions@https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz. Extracting by manifest.
+836 silly tarball no local data for y18n@https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz. Extracting by manifest.
+837 silly tarball no local data for mri@https://registry.npmjs.org/mri/-/mri-1.2.0.tgz. Extracting by manifest.
+838 silly tarball no local data for get-caller-file@https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz. Extracting by manifest.
+839 silly tarball no local data for cliui@https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz. Extracting by manifest.
+840 silly tarball no local data for dequal@https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz. Extracting by manifest.
+841 silly tarball no local data for diff@https://registry.npmjs.org/diff/-/diff-5.2.0.tgz. Extracting by manifest.
+842 silly tarball no local data for sade@https://registry.npmjs.org/sade/-/sade-1.8.1.tgz. Extracting by manifest.
+843 silly tarball no local data for kleur@https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz. Extracting by manifest.
+844 silly tarball no local data for tr46@https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz. Extracting by manifest.
+845 silly tarball no local data for buffer@https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz. Extracting by manifest.
+846 silly tarball no local data for readable-stream@https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz. Extracting by manifest.
+847 silly tarball no local data for mkdirp-classic@https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz. Extracting by manifest.
+848 silly tarball no local data for chownr@https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz. Extracting by manifest.
+849 silly tarball no local data for tar-stream@https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz. Extracting by manifest.
+850 silly tarball no local data for fs-constants@https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz. Extracting by manifest.
+851 silly tarball no local data for whatwg-url@https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz. Extracting by manifest.
+852 silly tarball no local data for ws@https://registry.npmjs.org/ws/-/ws-8.13.0.tgz. Extracting by manifest.
+853 silly tarball no local data for mitt@https://registry.npmjs.org/mitt/-/mitt-3.0.0.tgz. Extracting by manifest.
+854 silly tarball no local data for node-fetch@https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz. Extracting by manifest.
+855 silly tarball no local data for cross-fetch@https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.5.tgz. Extracting by manifest.
+856 silly tarball no local data for chromium-bidi@https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-0.4.7.tgz. Extracting by manifest.
+857 silly tarball no local data for bl@https://registry.npmjs.org/bl/-/bl-4.1.0.tgz. Extracting by manifest.
+858 silly tarball no local data for @babel/helper-validator-identifier@https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.24.6.tgz. Extracting by manifest.
+859 silly tarball no local data for devtools-protocol@https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1107588.tgz. Extracting by manifest.
+860 silly tarball no local data for picocolors@https://registry.npmjs.org/picocolors/-/picocolors-1.0.1.tgz. Extracting by manifest.
+861 silly tarball no local data for @babel/highlight@https://registry.npmjs.org/@babel/highlight/-/highlight-7.24.6.tgz. Extracting by manifest.
+862 silly tarball no local data for @babel/code-frame@https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.6.tgz. Extracting by manifest.
+863 silly tarball no local data for resolve-from@https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz. Extracting by manifest.
+864 silly tarball no local data for callsites@https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz. Extracting by manifest.
+865 silly tarball no local data for argparse@https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz. Extracting by manifest.
+866 silly tarball no local data for undici-types@https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz. Extracting by manifest.
+867 silly tarball no local data for @types/node@https://registry.npmjs.org/@types/node/-/node-20.12.12.tgz. Extracting by manifest.
+868 silly tarball no local data for agent-base@https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz. Extracting by manifest.
+869 silly tarball no local data for @types/yauzl@https://registry.npmjs.org/@types/yauzl/-/yauzl-2.10.3.tgz. Extracting by manifest.
+870 silly tarball no local data for path-type@https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz. Extracting by manifest.
+871 silly tarball no local data for yargs@https://registry.npmjs.org/yargs/-/yargs-17.7.1.tgz. Extracting by manifest.
+872 silly tarball no local data for js-yaml@https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz. Extracting by manifest.
+873 silly tarball no local data for import-fresh@https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz. Extracting by manifest.
+874 silly tarball no local data for unbzip2-stream@https://registry.npmjs.org/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz. Extracting by manifest.
+875 silly tarball no local data for tar-fs@https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.1.tgz. Extracting by manifest.
+876 silly tarball no local data for proxy-from-env@https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz. Extracting by manifest.
+877 silly tarball no local data for progress@https://registry.npmjs.org/progress/-/progress-2.0.3.tgz. Extracting by manifest.
+878 silly tarball no local data for https-proxy-agent@https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz. Extracting by manifest.
+879 silly tarball no local data for puppeteer-core@https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-19.11.1.tgz. Extracting by manifest.
+880 silly tarball no local data for micromark-factory-whitespace@https://registry.npmjs.org/micromark-factory-whitespace/-/micromark-factory-whitespace-1.1.0.tgz. Extracting by manifest.
+881 silly tarball no local data for parent-module@https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz. Extracting by manifest.
+882 silly tarball no local data for cosmiconfig@https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.1.3.tgz. Extracting by manifest.
+883 silly tarball no local data for micromark-factory-title@https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-1.1.0.tgz. Extracting by manifest.
+884 silly tarball no local data for micromark-util-classify-character@https://registry.npmjs.org/micromark-util-classify-character/-/micromark-util-classify-character-1.1.0.tgz. Extracting by manifest.
+885 silly tarball no local data for @puppeteer/browsers@https://registry.npmjs.org/@puppeteer/browsers/-/browsers-0.5.0.tgz. Extracting by manifest.
+886 silly tarball no local data for micromark-util-html-tag-name@https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.2.0.tgz. Extracting by manifest.
+887 silly tarball no local data for micromark-util-subtokenize@https://registry.npmjs.org/micromark-util-subtokenize/-/micromark-util-subtokenize-1.1.0.tgz. Extracting by manifest.
+888 silly tarball no local data for @types/ms@https://registry.npmjs.org/@types/ms/-/ms-0.7.34.tgz. Extracting by manifest.
+889 silly tarball no local data for micromark-factory-label@https://registry.npmjs.org/micromark-factory-label/-/micromark-factory-label-1.1.0.tgz. Extracting by manifest.
+890 silly tarball no local data for micromark-util-encode@https://registry.npmjs.org/micromark-util-encode/-/micromark-util-encode-1.1.0.tgz. Extracting by manifest.
+891 silly tarball no local data for micromark-util-sanitize-uri@https://registry.npmjs.org/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-1.2.0.tgz. Extracting by manifest.
+892 silly tarball no local data for micromark-util-resolve-all@https://registry.npmjs.org/micromark-util-resolve-all/-/micromark-util-resolve-all-1.1.0.tgz. Extracting by manifest.
+893 silly tarball no local data for micromark-util-chunked@https://registry.npmjs.org/micromark-util-chunked/-/micromark-util-chunked-1.1.0.tgz. Extracting by manifest.
+894 silly tarball no local data for micromark-util-combine-extensions@https://registry.npmjs.org/micromark-util-combine-extensions/-/micromark-util-combine-extensions-1.1.0.tgz. Extracting by manifest.
+895 silly tarball no local data for micromark-core-commonmark@https://registry.npmjs.org/micromark-core-commonmark/-/micromark-core-commonmark-1.1.0.tgz. Extracting by manifest.
+896 silly tarball no local data for micromark-factory-destination@https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-1.1.0.tgz. Extracting by manifest.
+897 silly tarball no local data for uvu@https://registry.npmjs.org/uvu/-/uvu-0.5.6.tgz. Extracting by manifest.
+898 silly tarball no local data for micromark-util-character@https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-1.2.0.tgz. Extracting by manifest.
+899 silly tarball no local data for unist-util-stringify-position@https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-3.0.3.tgz. Extracting by manifest.
+900 silly tarball no local data for character-entities@https://registry.npmjs.org/character-entities/-/character-entities-2.0.2.tgz. Extracting by manifest.
+901 silly tarball no local data for @types/debug@https://registry.npmjs.org/@types/debug/-/debug-4.1.12.tgz. Extracting by manifest.
+902 silly tarball no local data for micromark-util-types@https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-1.1.0.tgz. Extracting by manifest.
+903 silly tarball no local data for micromark-util-symbol@https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.1.0.tgz. Extracting by manifest.
+904 silly tarball no local data for micromark-util-decode-numeric-character-reference@https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-1.1.0.tgz. Extracting by manifest.
+905 silly tarball no local data for micromark@https://registry.npmjs.org/micromark/-/micromark-3.2.0.tgz. Extracting by manifest.
+906 silly tarball no local data for mdast-util-to-string@https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-3.2.0.tgz. Extracting by manifest.
+907 silly tarball no local data for micromark-factory-space@https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-1.1.0.tgz. Extracting by manifest.
+908 silly tarball no local data for micromark-util-decode-string@https://registry.npmjs.org/micromark-util-decode-string/-/micromark-util-decode-string-1.1.0.tgz. Extracting by manifest.
+909 silly tarball no local data for @types/unist@https://registry.npmjs.org/@types/unist/-/unist-2.0.10.tgz. Extracting by manifest.
+910 silly tarball no local data for decode-named-character-reference@https://registry.npmjs.org/decode-named-character-reference/-/decode-named-character-reference-1.0.2.tgz. Extracting by manifest.
+911 silly tarball no local data for robust-predicates@https://registry.npmjs.org/robust-predicates/-/robust-predicates-3.0.2.tgz. Extracting by manifest.
+912 silly tarball no local data for @types/mdast@https://registry.npmjs.org/@types/mdast/-/mdast-3.0.15.tgz. Extracting by manifest.
+913 silly tarball no local data for micromark-util-normalize-identifier@https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.1.0.tgz. Extracting by manifest.
+914 silly tarball no local data for d3-transition@https://registry.npmjs.org/d3-transition/-/d3-transition-3.0.1.tgz. Extracting by manifest.
+915 silly tarball no local data for delaunator@https://registry.npmjs.org/delaunator/-/delaunator-5.0.1.tgz. Extracting by manifest.
+916 silly tarball no local data for internmap@https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz. Extracting by manifest.
+917 silly tarball no local data for d3-timer@https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz. Extracting by manifest.
+918 silly tarball no local data for d3-zoom@https://registry.npmjs.org/d3-zoom/-/d3-zoom-3.0.0.tgz. Extracting by manifest.
+919 silly tarball no local data for d3-time@https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz. Extracting by manifest.
+920 silly tarball no local data for d3-time-format@https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz. Extracting by manifest.
+921 silly tarball no local data for d3-scale@https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz. Extracting by manifest.
+922 silly tarball no local data for d3-shape@https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz. Extracting by manifest.
+923 silly tarball no local data for d3-scale-chromatic@https://registry.npmjs.org/d3-scale-chromatic/-/d3-scale-chromatic-3.1.0.tgz. Extracting by manifest.
+924 silly tarball no local data for d3-random@https://registry.npmjs.org/d3-random/-/d3-random-3.0.1.tgz. Extracting by manifest.
+925 silly tarball no local data for d3-path@https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz. Extracting by manifest.
+926 silly tarball no local data for d3-polygon@https://registry.npmjs.org/d3-polygon/-/d3-polygon-3.0.1.tgz. Extracting by manifest.
+927 silly tarball no local data for d3-selection@https://registry.npmjs.org/d3-selection/-/d3-selection-3.0.0.tgz. Extracting by manifest.
+928 silly tarball no local data for d3-geo@https://registry.npmjs.org/d3-geo/-/d3-geo-3.1.1.tgz. Extracting by manifest.
+929 silly tarball no local data for d3-force@https://registry.npmjs.org/d3-force/-/d3-force-3.0.0.tgz. Extracting by manifest.
+930 silly tarball no local data for d3-quadtree@https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-3.0.1.tgz. Extracting by manifest.
+931 silly tarball no local data for d3-interpolate@https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz. Extracting by manifest.
+932 silly tarball no local data for d3-hierarchy@https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-3.1.2.tgz. Extracting by manifest.
+933 silly tarball no local data for d3-ease@https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz. Extracting by manifest.
+934 silly tarball no local data for d3-fetch@https://registry.npmjs.org/d3-fetch/-/d3-fetch-3.0.1.tgz. Extracting by manifest.
+935 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-7.2.0.tgz. Extracting by manifest.
+936 silly tarball no local data for d3-drag@https://registry.npmjs.org/d3-drag/-/d3-drag-3.0.0.tgz. Extracting by manifest.
+937 silly tarball no local data for d3-dispatch@https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-3.0.1.tgz. Extracting by manifest.
+938 silly tarball no local data for d3-format@https://registry.npmjs.org/d3-format/-/d3-format-3.1.0.tgz. Extracting by manifest.
+939 silly tarball no local data for d3-contour@https://registry.npmjs.org/d3-contour/-/d3-contour-4.0.2.tgz. Extracting by manifest.
+940 silly tarball no local data for d3-color@https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz. Extracting by manifest.
+941 silly tarball no local data for rw@https://registry.npmjs.org/rw/-/rw-1.3.3.tgz. Extracting by manifest.
+942 silly tarball no local data for d3-axis@https://registry.npmjs.org/d3-axis/-/d3-axis-3.0.0.tgz. Extracting by manifest.
+943 silly tarball no local data for d3-array@https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz. Extracting by manifest.
+944 silly tarball no local data for d3-dsv@https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.1.tgz. Extracting by manifest.
+945 silly tarball no local data for layout-base@https://registry.npmjs.org/layout-base/-/layout-base-1.0.2.tgz. Extracting by manifest.
+946 silly tarball no local data for d3-chord@https://registry.npmjs.org/d3-chord/-/d3-chord-3.0.1.tgz. Extracting by manifest.
+947 silly tarball no local data for d3-brush@https://registry.npmjs.org/d3-brush/-/d3-brush-3.0.0.tgz. Extracting by manifest.
+948 silly tarball no local data for cose-base@https://registry.npmjs.org/cose-base/-/cose-base-1.0.3.tgz. Extracting by manifest.
+949 silly tarball no local data for uuid@https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz. Extracting by manifest.
+950 silly tarball no local data for @types/d3-time@https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.3.tgz. Extracting by manifest.
+951 silly tarball no local data for web-worker@https://registry.npmjs.org/web-worker/-/web-worker-1.3.0.tgz. Extracting by manifest.
+952 silly tarball no local data for ts-dedent@https://registry.npmjs.org/ts-dedent/-/ts-dedent-2.2.0.tgz. Extracting by manifest.
+953 silly tarball no local data for non-layered-tidy-tree-layout@https://registry.npmjs.org/non-layered-tidy-tree-layout/-/non-layered-tidy-tree-layout-2.0.2.tgz. Extracting by manifest.
+954 silly tarball no local data for stylis@https://registry.npmjs.org/stylis/-/stylis-4.3.2.tgz. Extracting by manifest.
+955 silly tarball no local data for khroma@https://registry.npmjs.org/khroma/-/khroma-2.1.0.tgz. Extracting by manifest.
+956 silly tarball no local data for lodash-es@https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz. Extracting by manifest.
+957 silly tarball no local data for d3-delaunay@https://registry.npmjs.org/d3-delaunay/-/d3-delaunay-6.0.4.tgz. Extracting by manifest.
+958 silly tarball no local data for mdast-util-from-markdown@https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-1.3.1.tgz. Extracting by manifest.
+959 silly tarball no local data for elkjs@https://registry.npmjs.org/elkjs/-/elkjs-0.9.3.tgz. Extracting by manifest.
+960 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-8.3.0.tgz. Extracting by manifest.
+961 silly tarball no local data for d3-sankey@https://registry.npmjs.org/d3-sankey/-/d3-sankey-0.12.3.tgz. Extracting by manifest.
+962 silly tarball no local data for dayjs@https://registry.npmjs.org/dayjs/-/dayjs-1.11.11.tgz. Extracting by manifest.
+963 silly tarball no local data for internmap@https://registry.npmjs.org/internmap/-/internmap-1.0.1.tgz. Extracting by manifest.
+964 silly tarball no local data for dompurify@https://registry.npmjs.org/dompurify/-/dompurify-3.1.4.tgz. Extracting by manifest.
+965 silly tarball no local data for d3@https://registry.npmjs.org/d3/-/d3-7.9.0.tgz. Extracting by manifest.
+966 silly tarball no local data for dagre-d3-es@https://registry.npmjs.org/dagre-d3-es/-/dagre-d3-es-7.0.10.tgz. Extracting by manifest.
+967 silly tarball no local data for d3-path@https://registry.npmjs.org/d3-path/-/d3-path-1.0.9.tgz. Extracting by manifest.
+968 silly tarball no local data for cytoscape@https://registry.npmjs.org/cytoscape/-/cytoscape-3.29.2.tgz. Extracting by manifest.
+969 silly tarball no local data for d3-shape@https://registry.npmjs.org/d3-shape/-/d3-shape-1.3.7.tgz. Extracting by manifest.
+970 silly tarball no local data for cytoscape-cose-bilkent@https://registry.npmjs.org/cytoscape-cose-bilkent/-/cytoscape-cose-bilkent-4.1.0.tgz. Extracting by manifest.
+971 silly tarball no local data for @types/d3-scale-chromatic@https://registry.npmjs.org/@types/d3-scale-chromatic/-/d3-scale-chromatic-3.0.3.tgz. Extracting by manifest.
+972 silly tarball no local data for d3-array@https://registry.npmjs.org/d3-array/-/d3-array-2.12.1.tgz. Extracting by manifest.
+973 silly tarball no local data for @braintree/sanitize-url@https://registry.npmjs.org/@braintree/sanitize-url/-/sanitize-url-6.0.4.tgz. Extracting by manifest.
+974 silly tarball no local data for chalk@https://registry.npmjs.org/chalk/-/chalk-5.3.0.tgz. Extracting by manifest.
+975 silly tarball no local data for @types/d3-scale@https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.8.tgz. Extracting by manifest.
+976 silly tarball no local data for puppeteer@https://registry.npmjs.org/puppeteer/-/puppeteer-19.11.1.tgz. Extracting by manifest.
+977 silly tarball no local data for commander@https://registry.npmjs.org/commander/-/commander-10.0.1.tgz. Extracting by manifest.
+978 silly tarball no local data for katex@https://registry.npmjs.org/katex/-/katex-0.16.10.tgz. Extracting by manifest.
+979 silly tarball no local data for mermaid@https://registry.npmjs.org/mermaid/-/mermaid-10.9.1.tgz. Extracting by manifest.
+980 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/escape-string-regexp Completed in 129ms
+981 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/buffer-crc32 Completed in 128ms
+982 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/has-flag Completed in 129ms
+983 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/color-name Completed in 128ms
+984 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/wrappy Completed in 127ms
+985 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/end-of-stream Completed in 128ms
+986 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/once Completed in 128ms
+987 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/error-ex Completed in 128ms
+988 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/ansi-styles Completed in 128ms
+989 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/parse-json Completed in 127ms
+990 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/ms Completed in 128ms
+991 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/pend Completed in 130ms
+992 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/is-fullwidth-code-point Completed in 130ms
+993 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/supports-color Completed in 131ms
+994 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/ansi-regex Completed in 130ms
+995 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/inherits Completed in 129ms
+996 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/ieee754 Completed in 129ms
+997 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/string-width Completed in 130ms
+998 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/strip-ansi Completed in 130ms
+999 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/json-parse-even-better-errors Completed in 129ms
+1000 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/ansi-styles Completed in 131ms
+1001 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/string_decoder Completed in 130ms
+1002 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/base64-js Completed in 130ms
+1003 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/js-tokens Completed in 130ms
+1004 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/util-deprecate Completed in 131ms
+1005 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/lines-and-columns Completed in 130ms
+1006 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/extract-zip Completed in 129ms
+1007 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/color-name Completed in 130ms
+1008 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/pump Completed in 130ms
+1009 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/get-stream Completed in 130ms
+1010 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/is-arrayish Completed in 131ms
+1011 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/safe-buffer Completed in 133ms
+1012 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/color-convert Completed in 133ms
+1013 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/yauzl Completed in 131ms
+1014 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/color-convert Completed in 132ms
+1015 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/debug Completed in 132ms
+1016 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/chalk Completed in 134ms
+1017 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/safer-buffer Completed in 132ms
+1018 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/fd-slicer Completed in 136ms
+1019 http fetch GET 200 https://registry.npmjs.org/escalade/-/escalade-3.1.2.tgz 108ms (cache miss)
+1020 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/escalade Completed in 136ms
+1021 http fetch GET 200 https://registry.npmjs.org/require-directory/-/require-directory-2.1.1.tgz 107ms (cache miss)
+1022 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/require-directory Completed in 136ms
+1023 http fetch GET 200 https://registry.npmjs.org/y18n/-/y18n-5.0.8.tgz 107ms (cache miss)
+1024 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/emoji-regex Completed in 136ms
+1025 http fetch GET 200 https://registry.npmjs.org/wrap-ansi/-/wrap-ansi-7.0.0.tgz 108ms (cache miss)
+1026 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/wrap-ansi Completed in 136ms
+1027 http fetch GET 200 https://registry.npmjs.org/webidl-conversions/-/webidl-conversions-3.0.1.tgz 108ms (cache miss)
+1028 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/webidl-conversions Completed in 137ms
+1029 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/through Completed in 137ms
+1030 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/y18n Completed in 137ms
+1031 http fetch GET 200 https://registry.npmjs.org/yargs-parser/-/yargs-parser-21.1.1.tgz 110ms (cache miss)
+1032 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/yargs-parser Completed in 139ms
+1033 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/iconv-lite Completed in 137ms
+1034 http fetch GET 200 https://registry.npmjs.org/cliui/-/cliui-8.0.1.tgz 287ms (cache miss)
+1035 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/cliui Completed in 316ms
+1036 http fetch GET 200 https://registry.npmjs.org/decode-named-character-reference/-/decode-named-character-reference-1.0.2.tgz 281ms (cache miss)
+1037 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/decode-named-character-reference Completed in 315ms
+1038 http fetch GET 200 https://registry.npmjs.org/mitt/-/mitt-3.0.0.tgz 292ms (cache miss)
+1039 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/mitt Completed in 322ms
+1040 http fetch GET 200 https://registry.npmjs.org/@types/yauzl/-/yauzl-2.10.3.tgz 291ms (cache miss)
+1041 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/yauzl Completed in 322ms
+1042 http fetch GET 200 https://registry.npmjs.org/d3-fetch/-/d3-fetch-3.0.1.tgz 290ms (cache miss)
+1043 http fetch GET 200 https://registry.npmjs.org/dequal/-/dequal-2.0.3.tgz 300ms (cache miss)
+1044 http fetch GET 200 https://registry.npmjs.org/agent-base/-/agent-base-6.0.2.tgz 298ms (cache miss)
+1045 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/agent-base Completed in 329ms
+1046 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/dequal Completed in 331ms
+1047 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-fetch Completed in 329ms
+1048 http fetch GET 200 https://registry.npmjs.org/d3-polygon/-/d3-polygon-3.0.1.tgz 297ms (cache miss)
+1049 http fetch GET 200 https://registry.npmjs.org/micromark-util-html-tag-name/-/micromark-util-html-tag-name-1.2.0.tgz 301ms (cache miss)
+1050 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-html-tag-name Completed in 334ms
+1051 http fetch GET 200 https://registry.npmjs.org/d3-axis/-/d3-axis-3.0.0.tgz 300ms (cache miss)
+1052 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-axis Completed in 336ms
+1053 http fetch GET 200 https://registry.npmjs.org/ts-dedent/-/ts-dedent-2.2.0.tgz 300ms (cache miss)
+1054 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-polygon Completed in 338ms
+1055 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/ts-dedent Completed in 341ms
+1056 http fetch GET 200 https://registry.npmjs.org/proxy-from-env/-/proxy-from-env-1.1.0.tgz 318ms (cache miss)
+1057 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/proxy-from-env Completed in 350ms
+1058 http fetch GET 200 https://registry.npmjs.org/d3-drag/-/d3-drag-3.0.0.tgz 313ms (cache miss)
+1059 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-drag Completed in 349ms
+1060 http fetch GET 200 https://registry.npmjs.org/d3-ease/-/d3-ease-3.0.1.tgz 313ms (cache miss)
+1061 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-ease Completed in 349ms
+1062 http fetch GET 200 https://registry.npmjs.org/micromark-util-combine-extensions/-/micromark-util-combine-extensions-1.1.0.tgz 319ms (cache miss)
+1063 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-combine-extensions Completed in 353ms
+1064 http fetch GET 200 https://registry.npmjs.org/@types/unist/-/unist-2.0.10.tgz 320ms (cache miss)
+1065 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/unist Completed in 354ms
+1066 http fetch GET 200 https://registry.npmjs.org/internmap/-/internmap-2.0.3.tgz 319ms (cache miss)
+1067 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/internmap Completed in 354ms
+1068 http fetch GET 200 https://registry.npmjs.org/readable-stream/-/readable-stream-3.6.2.tgz 331ms (cache miss)
+1069 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/readable-stream Completed in 360ms
+1070 http fetch GET 200 https://registry.npmjs.org/d3-time/-/d3-time-3.1.0.tgz 324ms (cache miss)
+1071 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-time Completed in 359ms
+1072 http fetch GET 200 https://registry.npmjs.org/d3-sankey/-/d3-sankey-0.12.3.tgz 320ms (cache miss)
+1073 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey Completed in 358ms
+1074 http fetch GET 200 https://registry.npmjs.org/rw/-/rw-1.3.3.tgz 324ms (cache miss)
+1075 http fetch GET 200 https://registry.npmjs.org/mdast-util-from-markdown/-/mdast-util-from-markdown-1.3.1.tgz 326ms (cache miss)
+1076 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/mdast-util-from-markdown Completed in 364ms
+1077 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/rw Completed in 366ms
+1078 http fetch GET 200 https://registry.npmjs.org/argparse/-/argparse-2.0.1.tgz 340ms (cache miss)
+1079 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/argparse Completed in 372ms
+1080 http fetch GET 200 https://registry.npmjs.org/@types/d3-time/-/d3-time-3.0.3.tgz 333ms (cache miss)
+1081 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-time Completed in 370ms
+1082 http fetch GET 200 https://registry.npmjs.org/kleur/-/kleur-4.1.5.tgz 346ms (cache miss)
+1083 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/kleur Completed in 376ms
+1084 http fetch GET 200 https://registry.npmjs.org/d3-delaunay/-/d3-delaunay-6.0.4.tgz 334ms (cache miss)
+1085 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-delaunay Completed in 372ms
+1086 http fetch GET 200 https://registry.npmjs.org/d3-random/-/d3-random-3.0.1.tgz 338ms (cache miss)
+1087 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-random Completed in 374ms
+1088 http fetch GET 200 https://registry.npmjs.org/@types/mdast/-/mdast-3.0.15.tgz 340ms (cache miss)
+1089 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/mdast Completed in 374ms
+1090 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-8.3.0.tgz 339ms (cache miss)
+1091 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/katex/node_modules/commander Completed in 377ms
+1092 http fetch GET 200 https://registry.npmjs.org/d3-interpolate/-/d3-interpolate-3.0.1.tgz 343ms (cache miss)
+1093 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-interpolate Completed in 378ms
+1094 http fetch GET 200 https://registry.npmjs.org/tar-fs/-/tar-fs-2.1.1.tgz 349ms (cache miss)
+1095 http fetch GET 200 https://registry.npmjs.org/cosmiconfig/-/cosmiconfig-8.1.3.tgz 350ms (cache miss)
+1096 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/cosmiconfig Completed in 382ms
+1097 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/tar-fs Completed in 383ms
+1098 http fetch GET 200 https://registry.npmjs.org/d3-time-format/-/d3-time-format-4.1.0.tgz 357ms (cache miss)
+1099 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-time-format Completed in 393ms
+1100 http fetch GET 200 https://registry.npmjs.org/d3-transition/-/d3-transition-3.0.1.tgz 359ms (cache miss)
+1101 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-transition Completed in 394ms
+1102 http fetch GET 200 https://registry.npmjs.org/ws/-/ws-8.13.0.tgz 366ms (cache miss)
+1103 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/ws Completed in 396ms
+1104 http fetch GET 200 https://registry.npmjs.org/d3-hierarchy/-/d3-hierarchy-3.1.2.tgz 362ms (cache miss)
+1105 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-hierarchy Completed in 397ms
+1106 http fetch GET 200 https://registry.npmjs.org/d3-format/-/d3-format-3.1.0.tgz 378ms (cache miss)
+1107 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-format Completed in 414ms
+1108 http fetch GET 200 https://registry.npmjs.org/fs-constants/-/fs-constants-1.0.0.tgz 393ms (cache miss)
+1109 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/fs-constants Completed in 424ms
+1110 http fetch GET 200 https://registry.npmjs.org/d3-scale-chromatic/-/d3-scale-chromatic-3.1.0.tgz 404ms (cache miss)
+1111 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-scale-chromatic Completed in 440ms
+1112 http fetch GET 200 https://registry.npmjs.org/micromark/-/micromark-3.2.0.tgz 410ms (cache miss)
+1113 http fetch GET 200 https://registry.npmjs.org/whatwg-url/-/whatwg-url-5.0.0.tgz 416ms (cache miss)
+1114 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/whatwg-url Completed in 446ms
+1115 http fetch GET 200 https://registry.npmjs.org/picocolors/-/picocolors-1.0.1.tgz 416ms (cache miss)
+1116 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/picocolors Completed in 447ms
+1117 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark Completed in 445ms
+1118 http fetch GET 200 https://registry.npmjs.org/uuid/-/uuid-9.0.1.tgz 408ms (cache miss)
+1119 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/uuid Completed in 445ms
+1120 http fetch GET 200 https://registry.npmjs.org/tar-stream/-/tar-stream-2.2.0.tgz 420ms (cache miss)
+1121 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/tar-stream Completed in 450ms
+1122 http fetch GET 200 https://registry.npmjs.org/micromark-factory-destination/-/micromark-factory-destination-1.1.0.tgz 417ms (cache miss)
+1123 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-destination Completed in 451ms
+1124 http fetch GET 200 https://registry.npmjs.org/character-entities/-/character-entities-2.0.2.tgz 421ms (cache miss)
+1125 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/character-entities Completed in 454ms
+1126 http fetch GET 200 https://registry.npmjs.org/import-fresh/-/import-fresh-3.3.0.tgz 425ms (cache miss)
+1127 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/import-fresh Completed in 456ms
+1128 http fetch GET 200 https://registry.npmjs.org/uvu/-/uvu-0.5.6.tgz 424ms (cache miss)
+1129 http fetch GET 200 https://registry.npmjs.org/micromark-util-types/-/micromark-util-types-1.1.0.tgz 425ms (cache miss)
+1130 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-types Completed in 458ms
+1131 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/uvu Completed in 458ms
+1132 http fetch GET 200 https://registry.npmjs.org/micromark-util-character/-/micromark-util-character-1.2.0.tgz 434ms (cache miss)
+1133 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-character Completed in 467ms
+1134 http fetch GET 200 https://registry.npmjs.org/@types/debug/-/debug-4.1.12.tgz 446ms (cache miss)
+1135 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/debug Completed in 479ms
+1136 http fetch GET 200 https://registry.npmjs.org/micromark-factory-whitespace/-/micromark-factory-whitespace-1.1.0.tgz 454ms (cache miss)
+1137 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-whitespace Completed in 486ms
+1138 http fetch GET 200 https://registry.npmjs.org/khroma/-/khroma-2.1.0.tgz 450ms (cache miss)
+1139 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/khroma Completed in 489ms
+1140 http fetch GET 200 https://registry.npmjs.org/micromark-core-commonmark/-/micromark-core-commonmark-1.1.0.tgz 462ms (cache miss)
+1141 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-core-commonmark Completed in 496ms
+1142 http fetch GET 200 https://registry.npmjs.org/d3-force/-/d3-force-3.0.0.tgz 460ms (cache miss)
+1143 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-force Completed in 495ms
+1144 http fetch GET 200 https://registry.npmjs.org/d3-path/-/d3-path-3.1.0.tgz 461ms (cache miss)
+1145 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-path Completed in 496ms
+1146 http fetch GET 200 https://registry.npmjs.org/d3-geo/-/d3-geo-3.1.1.tgz 467ms (cache miss)
+1147 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-geo Completed in 502ms
+1148 http fetch GET 200 https://registry.npmjs.org/path-type/-/path-type-4.0.0.tgz 474ms (cache miss)
+1149 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/path-type Completed in 505ms
+1150 http fetch GET 200 https://registry.npmjs.org/micromark-util-chunked/-/micromark-util-chunked-1.1.0.tgz 486ms (cache miss)
+1151 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-chunked Completed in 520ms
+1152 http fetch GET 200 https://registry.npmjs.org/@types/ms/-/ms-0.7.34.tgz 491ms (cache miss)
+1153 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/ms Completed in 524ms
+1154 http fetch GET 200 https://registry.npmjs.org/unbzip2-stream/-/unbzip2-stream-1.4.3.tgz 493ms (cache miss)
+1155 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/unbzip2-stream Completed in 525ms
+1156 http fetch GET 200 https://registry.npmjs.org/micromark-factory-title/-/micromark-factory-title-1.1.0.tgz 498ms (cache miss)
+1157 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-title Completed in 531ms
+1158 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent/-/https-proxy-agent-5.0.1.tgz 502ms (cache miss)
+1159 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/https-proxy-agent Completed in 534ms
+1160 http fetch GET 200 https://registry.npmjs.org/web-worker/-/web-worker-1.3.0.tgz 497ms (cache miss)
+1161 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/web-worker Completed in 535ms
+1162 http fetch GET 200 https://registry.npmjs.org/d3-dispatch/-/d3-dispatch-3.0.1.tgz 501ms (cache miss)
+1163 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dispatch Completed in 537ms
+1164 http fetch GET 200 https://registry.npmjs.org/d3-color/-/d3-color-3.1.0.tgz 501ms (cache miss)
+1165 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-color Completed in 537ms
+1166 http fetch GET 200 https://registry.npmjs.org/cose-base/-/cose-base-1.0.3.tgz 512ms (cache miss)
+1167 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/cose-base Completed in 549ms
+1168 http fetch GET 200 https://registry.npmjs.org/d3-dsv/-/d3-dsv-3.0.1.tgz 516ms (cache miss)
+1169 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv Completed in 552ms
+1170 http fetch GET 200 https://registry.npmjs.org/d3-chord/-/d3-chord-3.0.1.tgz 516ms (cache miss)
+1171 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-chord Completed in 553ms
+1172 http fetch GET 200 https://registry.npmjs.org/parent-module/-/parent-module-1.0.1.tgz 533ms (cache miss)
+1173 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/parent-module Completed in 565ms
+1174 http fetch GET 200 https://registry.npmjs.org/d3-array/-/d3-array-3.2.4.tgz 528ms (cache miss)
+1175 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-array Completed in 564ms
+1176 http fetch GET 200 https://registry.npmjs.org/micromark-util-encode/-/micromark-util-encode-1.1.0.tgz 535ms (cache miss)
+1177 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-encode Completed in 568ms
+1178 http fetch GET 200 https://registry.npmjs.org/d3-path/-/d3-path-1.0.9.tgz 536ms (cache miss)
+1179 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-path Completed in 575ms
+1180 http fetch GET 200 https://registry.npmjs.org/chalk/-/chalk-5.3.0.tgz 564ms (cache miss)
+1181 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/chalk Completed in 603ms
+1182 http fetch GET 200 https://registry.npmjs.org/dayjs/-/dayjs-1.11.11.tgz 567ms (cache miss)
+1183 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/dayjs Completed in 607ms
+1184 http fetch GET 200 https://registry.npmjs.org/micromark-factory-label/-/micromark-factory-label-1.1.0.tgz 583ms (cache miss)
+1185 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-label Completed in 616ms
+1186 http fetch GET 200 https://registry.npmjs.org/internmap/-/internmap-1.0.1.tgz 589ms (cache miss)
+1187 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/internmap Completed in 628ms
+1188 http fetch GET 200 https://registry.npmjs.org/d3-brush/-/d3-brush-3.0.0.tgz 594ms (cache miss)
+1189 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-brush Completed in 631ms
+1190 http fetch GET 200 https://registry.npmjs.org/d3-shape/-/d3-shape-1.3.7.tgz 600ms (cache miss)
+1191 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-shape Completed in 639ms
+1192 http fetch GET 200 https://registry.npmjs.org/@braintree/sanitize-url/-/sanitize-url-6.0.4.tgz 602ms (cache miss)
+1193 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@braintree/sanitize-url Completed in 643ms
+1194 http fetch GET 200 https://registry.npmjs.org/lodash-es/-/lodash-es-4.17.21.tgz 610ms (cache miss)
+1195 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/lodash-es Completed in 647ms
+1196 http fetch GET 200 https://registry.npmjs.org/d3-array/-/d3-array-2.12.1.tgz 609ms (cache miss)
+1197 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-array Completed in 649ms
+1198 http fetch GET 200 https://registry.npmjs.org/@puppeteer/browsers/-/browsers-0.5.0.tgz 625ms (cache miss)
+1199 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers Completed in 658ms
+1200 http fetch GET 200 https://registry.npmjs.org/cytoscape-cose-bilkent/-/cytoscape-cose-bilkent-4.1.0.tgz 632ms (cache miss)
+1201 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/cytoscape-cose-bilkent Completed in 670ms
+1202 http fetch GET 200 https://registry.npmjs.org/dagre-d3-es/-/dagre-d3-es-7.0.10.tgz 683ms (cache miss)
+1203 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/dagre-d3-es Completed in 721ms
+1204 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-string/-/micromark-util-decode-string-1.1.0.tgz 748ms (cache miss)
+1205 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-decode-string Completed in 782ms
+1206 http fetch GET 200 https://registry.npmjs.org/@types/d3-scale/-/d3-scale-4.0.8.tgz 757ms (cache miss)
+1207 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-scale Completed in 797ms
+1208 http fetch GET 200 https://registry.npmjs.org/bl/-/bl-4.1.0.tgz 788ms (cache miss)
+1209 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/bl Completed in 818ms
+1210 http fetch GET 200 https://registry.npmjs.org/micromark-factory-space/-/micromark-factory-space-1.1.0.tgz 793ms (cache miss)
+1211 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-space Completed in 827ms
+1212 http fetch GET 200 https://registry.npmjs.org/micromark-util-subtokenize/-/micromark-util-subtokenize-1.1.0.tgz 800ms (cache miss)
+1213 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-subtokenize Completed in 833ms
+1214 http fetch GET 200 https://registry.npmjs.org/elkjs/-/elkjs-0.9.3.tgz 796ms (cache miss)
+1215 http fetch GET 200 https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz 806ms (cache miss)
+1216 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/callsites Completed in 837ms
+1217 http fetch GET 200 https://registry.npmjs.org/sade/-/sade-1.8.1.tgz 814ms (cache miss)
+1218 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/sade Completed in 844ms
+1219 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/elkjs Completed in 841ms
+1220 http fetch GET 200 https://registry.npmjs.org/undici-types/-/undici-types-5.26.5.tgz 829ms (cache miss)
+1221 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/undici-types Completed in 861ms
+1222 http fetch GET 200 https://registry.npmjs.org/d3/-/d3-7.9.0.tgz 831ms (cache miss)
+1223 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3 Completed in 868ms
+1224 http fetch GET 200 https://registry.npmjs.org/micromark-util-sanitize-uri/-/micromark-util-sanitize-uri-1.2.0.tgz 864ms (cache miss)
+1225 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-sanitize-uri Completed in 897ms
+1226 http fetch GET 200 https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-19.11.1.tgz 871ms (cache miss)
+1227 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core Completed in 903ms
+1228 http fetch GET 200 https://registry.npmjs.org/@babel/helper-validator-identifier/-/helper-validator-identifier-7.24.6.tgz 876ms (cache miss)
+1229 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/helper-validator-identifier Completed in 907ms
+1230 http fetch GET 200 https://registry.npmjs.org/node-fetch/-/node-fetch-2.6.7.tgz 884ms (cache miss)
+1231 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/node-fetch Completed in 914ms
+1232 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-7.2.0.tgz 885ms (cache miss)
+1233 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv/node_modules/commander Completed in 922ms
+1234 http fetch GET 200 https://registry.npmjs.org/dompurify/-/dompurify-3.1.4.tgz 893ms (cache miss)
+1235 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/dompurify Completed in 931ms
+1236 http fetch GET 200 https://registry.npmjs.org/d3-quadtree/-/d3-quadtree-3.0.1.tgz 924ms (cache miss)
+1237 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-quadtree Completed in 960ms
+1238 http fetch GET 200 https://registry.npmjs.org/yargs/-/yargs-17.7.1.tgz 976ms (cache miss)
+1239 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/yargs Completed in 1007ms
+1240 http fetch GET 200 https://registry.npmjs.org/buffer/-/buffer-5.7.1.tgz 986ms (cache miss)
+1241 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/buffer Completed in 1015ms
+1242 http fetch GET 200 https://registry.npmjs.org/chownr/-/chownr-1.1.4.tgz 1004ms (cache miss)
+1243 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/chownr Completed in 1033ms
+1244 http fetch GET 200 https://registry.npmjs.org/micromark-util-classify-character/-/micromark-util-classify-character-1.1.0.tgz 1032ms (cache miss)
+1245 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-classify-character Completed in 1065ms
+1246 http fetch GET 200 https://registry.npmjs.org/micromark-util-resolve-all/-/micromark-util-resolve-all-1.1.0.tgz 1059ms (cache miss)
+1247 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-resolve-all Completed in 1092ms
+1248 http fetch GET 200 https://registry.npmjs.org/d3-selection/-/d3-selection-3.0.0.tgz 1093ms (cache miss)
+1249 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-selection Completed in 1130ms
+1250 http fetch GET 200 https://registry.npmjs.org/layout-base/-/layout-base-1.0.2.tgz 1108ms (cache miss)
+1251 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/layout-base Completed in 1145ms
+1252 http fetch GET 200 https://registry.npmjs.org/progress/-/progress-2.0.3.tgz 1146ms (cache miss)
+1253 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/progress Completed in 1178ms
+1254 http fetch GET 200 https://registry.npmjs.org/mdast-util-to-string/-/mdast-util-to-string-3.2.0.tgz 1179ms (cache miss)
+1255 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/mdast-util-to-string Completed in 1213ms
+1256 http fetch GET 200 https://registry.npmjs.org/micromark-util-normalize-identifier/-/micromark-util-normalize-identifier-1.1.0.tgz 1178ms (cache miss)
+1257 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-normalize-identifier Completed in 1213ms
+1258 http fetch GET 200 https://registry.npmjs.org/diff/-/diff-5.2.0.tgz 1226ms (cache miss)
+1259 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/diff Completed in 1256ms
+1260 http fetch GET 200 https://registry.npmjs.org/js-yaml/-/js-yaml-4.1.0.tgz 1271ms (cache miss)
+1261 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/js-yaml Completed in 1302ms
+1262 http fetch GET 200 https://registry.npmjs.org/chromium-bidi/-/chromium-bidi-0.4.7.tgz 1379ms (cache miss)
+1263 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/chromium-bidi Completed in 1409ms
+1264 http fetch GET 200 https://registry.npmjs.org/d3-zoom/-/d3-zoom-3.0.0.tgz 1422ms (cache miss)
+1265 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-zoom Completed in 1457ms
+1266 http fetch GET 200 https://registry.npmjs.org/@babel/highlight/-/highlight-7.24.6.tgz 1428ms (cache miss)
+1267 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight Completed in 1459ms
+1268 http fetch GET 200 https://registry.npmjs.org/commander/-/commander-10.0.1.tgz 1447ms (cache miss)
+1269 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/commander Completed in 1487ms
+1270 http fetch GET 200 https://registry.npmjs.org/d3-scale/-/d3-scale-4.0.2.tgz 1481ms (cache miss)
+1271 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-scale Completed in 1516ms
+1272 http fetch GET 200 https://registry.npmjs.org/micromark-util-symbol/-/micromark-util-symbol-1.1.0.tgz 1484ms (cache miss)
+1273 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-symbol Completed in 1518ms
+1274 http fetch GET 200 https://registry.npmjs.org/mri/-/mri-1.2.0.tgz 1492ms (cache miss)
+1275 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/mri Completed in 1521ms
+1276 http fetch GET 200 https://registry.npmjs.org/devtools-protocol/-/devtools-protocol-0.0.1107588.tgz 1496ms (cache miss)
+1277 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/devtools-protocol Completed in 1527ms
+1278 http fetch GET 200 https://registry.npmjs.org/@mermaid-js/mermaid-cli/-/mermaid-cli-10.9.1.tgz 1504ms (cache miss)
+1279 timing reifyNode:node_modules/@mermaid-js/mermaid-cli Completed in 1533ms
+1280 http fetch GET 200 https://registry.npmjs.org/puppeteer/-/puppeteer-19.11.1.tgz 1489ms (cache miss)
+1281 warn deprecated puppeteer@19.11.1: < 22.5.0 is no longer supported
+1282 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer Completed in 1529ms
+1283 http fetch GET 200 https://registry.npmjs.org/@types/d3-scale-chromatic/-/d3-scale-chromatic-3.0.3.tgz 1502ms (cache miss)
+1284 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-scale-chromatic Completed in 1540ms
+1285 http fetch GET 200 https://registry.npmjs.org/resolve-from/-/resolve-from-4.0.0.tgz 1562ms (cache miss)
+1286 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/resolve-from Completed in 1592ms
+1287 http fetch GET 200 https://registry.npmjs.org/unist-util-stringify-position/-/unist-util-stringify-position-3.0.3.tgz 1571ms (cache miss)
+1288 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/unist-util-stringify-position Completed in 1604ms
+1289 http fetch GET 200 https://registry.npmjs.org/delaunator/-/delaunator-5.0.1.tgz 1595ms (cache miss)
+1290 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/delaunator Completed in 1630ms
+1291 http fetch GET 200 https://registry.npmjs.org/stylis/-/stylis-4.3.2.tgz 1597ms (cache miss)
+1292 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/stylis Completed in 1634ms
+1293 http fetch GET 200 https://registry.npmjs.org/micromark-util-decode-numeric-character-reference/-/micromark-util-decode-numeric-character-reference-1.1.0.tgz 1629ms (cache miss)
+1294 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-decode-numeric-character-reference Completed in 1663ms
+1295 http fetch GET 200 https://registry.npmjs.org/non-layered-tidy-tree-layout/-/non-layered-tidy-tree-layout-2.0.2.tgz 1653ms (cache miss)
+1296 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/non-layered-tidy-tree-layout Completed in 1690ms
+1297 http fetch GET 200 https://registry.npmjs.org/mkdirp-classic/-/mkdirp-classic-0.5.3.tgz 1688ms (cache miss)
+1298 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/mkdirp-classic Completed in 1717ms
+1299 http fetch GET 200 https://registry.npmjs.org/@babel/code-frame/-/code-frame-7.24.6.tgz 1686ms (cache miss)
+1300 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/code-frame Completed in 1717ms
+1301 http fetch GET 200 https://registry.npmjs.org/@types/node/-/node-20.12.12.tgz 1705ms (cache miss)
+1302 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/@types/node Completed in 1736ms
+1303 http fetch GET 200 https://registry.npmjs.org/katex/-/katex-0.16.10.tgz 1813ms (cache miss)
+1304 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/katex Completed in 1855ms
+1305 http fetch GET 200 https://registry.npmjs.org/cytoscape/-/cytoscape-3.29.2.tgz 1851ms (cache miss)
+1306 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/cytoscape Completed in 1889ms
+1307 http fetch GET 200 https://registry.npmjs.org/tr46/-/tr46-0.0.3.tgz 1868ms (cache miss)
+1308 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/tr46 Completed in 1899ms
+1309 http fetch GET 200 https://registry.npmjs.org/cross-fetch/-/cross-fetch-3.1.5.tgz 1875ms (cache miss)
+1310 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/cross-fetch Completed in 1905ms
+1311 http fetch GET 200 https://registry.npmjs.org/get-caller-file/-/get-caller-file-2.0.5.tgz 1934ms (cache miss)
+1312 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/get-caller-file Completed in 1963ms
+1313 http fetch GET 200 https://registry.npmjs.org/mermaid/-/mermaid-10.9.1.tgz 2148ms (cache miss)
+1314 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/mermaid Completed in 2189ms
+1315 http fetch GET 200 https://registry.npmjs.org/d3-contour/-/d3-contour-4.0.2.tgz 2316ms (cache miss)
+1316 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-contour Completed in 2353ms
+1317 http fetch GET 200 https://registry.npmjs.org/robust-predicates/-/robust-predicates-3.0.2.tgz 2323ms (cache miss)
+1318 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/robust-predicates Completed in 2357ms
+1319 http fetch GET 200 https://registry.npmjs.org/d3-timer/-/d3-timer-3.0.1.tgz 2326ms (cache miss)
+1320 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-timer Completed in 2361ms
+1321 http fetch GET 200 https://registry.npmjs.org/d3-shape/-/d3-shape-3.2.0.tgz 2388ms (cache miss)
+1322 timing reifyNode:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-shape Completed in 2425ms
+1323 timing reify:unpack Completed in 2429ms
+1324 timing reify:unretire Completed in 0ms
+1325 timing build:queue Completed in 4ms
+1326 timing build:link:node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers Completed in 4ms
+1327 timing build:link:node_modules/@mermaid-js/mermaid-cli/node_modules/katex Completed in 3ms
+1328 timing build:link:node_modules/@mermaid-js/mermaid-cli/node_modules/extract-zip Completed in 3ms
+1329 timing build:link:node_modules/@mermaid-js/mermaid-cli/node_modules/uvu Completed in 3ms
+1330 timing build:link:node_modules/@mermaid-js/mermaid-cli/node_modules/uuid Completed in 3ms
+1331 timing build:link:node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv Completed in 3ms
+1332 timing build:link:node_modules/@mermaid-js/mermaid-cli Completed in 4ms
+1333 timing build:link:node_modules/@mermaid-js/mermaid-cli/node_modules/js-yaml Completed in 3ms
+1334 timing build:link Completed in 4ms
+1335 info run puppeteer@19.11.1 postinstall node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer node install.js
+1336 info run puppeteer@19.11.1 postinstall { code: 0, signal: null }
+1337 timing build:run:postinstall:node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer Completed in 14819ms
+1338 timing build:run:postinstall Completed in 14819ms
+1339 timing build:deps Completed in 14827ms
+1340 timing build Completed in 14828ms
+1341 timing reify:build Completed in 14828ms
+1342 timing reify:trash Completed in 0ms
+1343 timing reify Completed in 25643ms
+1344 silly ADD node_modules/@mermaid-js/mermaid-cli
+1345 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/has-flag
+1346 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/supports-color
+1347 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/escape-string-regexp
+1348 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/pend
+1349 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/fd-slicer
+1350 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/buffer-crc32
+1351 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/color-name
+1352 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/color-convert
+1353 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/ansi-styles
+1354 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/ansi-regex
+1355 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/is-fullwidth-code-point
+1356 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/emoji-regex
+1357 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/wrap-ansi
+1358 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/strip-ansi
+1359 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/yargs-parser
+1360 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/y18n
+1361 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/string-width
+1362 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/require-directory
+1363 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/get-caller-file
+1364 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/escalade
+1365 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/cliui
+1366 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/webidl-conversions
+1367 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/tr46
+1368 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/mri
+1369 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/sade
+1370 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/kleur
+1371 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/diff
+1372 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/dequal
+1373 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/through
+1374 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/safe-buffer
+1375 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/util-deprecate
+1376 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/string_decoder
+1377 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/ieee754
+1378 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/base64-js
+1379 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/buffer
+1380 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/readable-stream
+1381 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/inherits
+1382 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/fs-constants
+1383 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/bl
+1384 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/tar-stream
+1385 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/mkdirp-classic
+1386 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/chownr
+1387 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/whatwg-url
+1388 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/node-fetch
+1389 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/mitt
+1390 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/ws
+1391 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/cross-fetch
+1392 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/devtools-protocol
+1393 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/chromium-bidi
+1394 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/wrappy
+1395 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/once
+1396 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/end-of-stream
+1397 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/is-arrayish
+1398 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/js-tokens
+1399 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/helper-validator-identifier
+1400 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/picocolors
+1401 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight
+1402 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/color-name
+1403 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/color-convert
+1404 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/ansi-styles
+1405 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/highlight/node_modules/chalk
+1406 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/lines-and-columns
+1407 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/json-parse-even-better-errors
+1408 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/error-ex
+1409 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@babel/code-frame
+1410 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/callsites
+1411 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/argparse
+1412 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/resolve-from
+1413 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/parent-module
+1414 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/agent-base
+1415 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/pump
+1416 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/undici-types
+1417 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/node
+1418 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/yauzl
+1419 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/get-stream
+1420 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/yauzl
+1421 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/path-type
+1422 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/parse-json
+1423 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/js-yaml
+1424 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/import-fresh
+1425 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/yargs
+1426 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/unbzip2-stream
+1427 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/tar-fs
+1428 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/extract-zip
+1429 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer-core
+1430 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/proxy-from-env
+1431 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/progress
+1432 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/https-proxy-agent
+1433 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/cosmiconfig
+1434 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@puppeteer/browsers
+1435 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-html-tag-name
+1436 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-classify-character
+1437 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-whitespace
+1438 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-title
+1439 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-label
+1440 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-destination
+1441 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/ms
+1442 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/ms
+1443 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-subtokenize
+1444 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-sanitize-uri
+1445 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-resolve-all
+1446 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-encode
+1447 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-combine-extensions
+1448 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-chunked
+1449 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-character
+1450 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-factory-space
+1451 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-core-commonmark
+1452 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/debug
+1453 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/debug
+1454 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/character-entities
+1455 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/uvu
+1456 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/unist-util-stringify-position
+1457 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-types
+1458 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-symbol
+1459 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-normalize-identifier
+1460 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-decode-string
+1461 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark-util-decode-numeric-character-reference
+1462 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/micromark
+1463 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/mdast-util-to-string
+1464 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/decode-named-character-reference
+1465 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/unist
+1466 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/mdast
+1467 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/safer-buffer
+1468 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/robust-predicates
+1469 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/rw
+1470 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/iconv-lite
+1471 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/delaunator
+1472 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/internmap
+1473 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-zoom
+1474 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-transition
+1475 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-timer
+1476 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-time-format
+1477 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-time
+1478 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-shape
+1479 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-selection
+1480 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-scale-chromatic
+1481 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-scale
+1482 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-random
+1483 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-quadtree
+1484 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-polygon
+1485 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-path
+1486 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-interpolate
+1487 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-hierarchy
+1488 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-geo
+1489 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-format
+1490 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-force
+1491 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-fetch
+1492 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-ease
+1493 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv
+1494 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dsv/node_modules/commander
+1495 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-drag
+1496 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-dispatch
+1497 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-delaunay
+1498 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-contour
+1499 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-color
+1500 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-chord
+1501 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-brush
+1502 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-axis
+1503 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-array
+1504 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/layout-base
+1505 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/cose-base
+1506 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-time
+1507 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/web-worker
+1508 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/uuid
+1509 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/ts-dedent
+1510 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/stylis
+1511 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/non-layered-tidy-tree-layout
+1512 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/mdast-util-from-markdown
+1513 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/lodash-es
+1514 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/khroma
+1515 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/katex
+1516 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/katex/node_modules/commander
+1517 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/elkjs
+1518 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/dompurify
+1519 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/dayjs
+1520 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/dagre-d3-es
+1521 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey
+1522 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-path
+1523 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/internmap
+1524 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-shape
+1525 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3-sankey/node_modules/d3-array
+1526 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/d3
+1527 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/cytoscape-cose-bilkent
+1528 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/cytoscape
+1529 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-scale-chromatic
+1530 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@types/d3-scale
+1531 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/@braintree/sanitize-url
+1532 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/puppeteer
+1533 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/mermaid
+1534 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/commander
+1535 silly ADD node_modules/@mermaid-js/mermaid-cli/node_modules/chalk
+1536 timing command:install Completed in 25648ms
+1537 notice
+1537 notice New [33mminor[39m version of npm available! [31m10.5.0[39m -> [32m10.8.0[39m
+1537 notice Changelog: [36mhttps://github.com/npm/cli/releases/tag/v10.8.0[39m
+1537 notice Run [32mnpm install -g npm@10.8.0[39m to update!
+1537 notice
+1538 verbose exit 0
+1539 timing npm Completed in 25787ms
+1540 info ok

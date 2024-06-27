@@ -1,0 +1,22 @@
+account k.lancemeister@gmail.com
+host smtp.gmail.com
+port 465
+from k.lancemeister@gmail.com
+user k.lancemeister@gmail.com
+passwordeval "pass k.lancemeister@gmail.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/cert.pem
+logfile /Users/kermitfrog19/.local/state/msmtp/msmtp.log
+tls_starttls off
+account thereal_lance@icloud.com
+host smtp.mail.me.com
+port 465
+from thereal_lance@icloud.com
+user thereal_lance@icloud.com
+passwordeval "pass thereal_lance@icloud.com"
+auth on
+tls on
+tls_trust_file	/etc/ssl/cert.pem
+logfile /Users/kermitfrog19/.local/state/msmtp/msmtp.log
+tls_starttls off

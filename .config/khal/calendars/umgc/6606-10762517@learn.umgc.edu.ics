@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:Writing Assignment #2 -- Set of instructions for a website (with d
+ escription of the application of personas) - Due
+DTSTART:20240605T035900Z
+DTEND:20240605T045900Z
+DTSTAMP:20240530T220954Z
+UID:6606-10762517@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:The assignment instructions can be accessed at the following l
+ ink:\nWRTG393_WA2_Instructions_Website_with_PersonasDescription_Fall2023_.
+ pdf\n\n\nAssignments:\nWriting Assignment #2 -- Set of instructions for a 
+ website (with description of the application of personas) - https://learn.
+ umgc.edu/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=1029479&db=166048
+ 9\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1029479/event/1
+ 0762517/detailsview?ou=1029479#10762517
+LAST-MODIFIED:20240422T140000Z
+END:VEVENT
+END:VCALENDAR

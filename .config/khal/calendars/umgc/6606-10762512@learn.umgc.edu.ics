@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:Writing Assignment #3 -- Quick start guide - Due
+DTSTART:20240612T035900Z
+DTEND:20240612T045900Z
+DTSTAMP:20240530T220954Z
+UID:6606-10762512@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Instructions\nThe assignment instructions can be accessed at t
+ he following link:\nPDF - WRTG393_WA3_QuickstartGuide_2022\n \n\n\nAssign
+ ments:\nWriting Assignment #3 -- Quick start guide - https://learn.umgc.ed
+ u/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=1029479&db=1660490\n\n\n
+ View event - https://learn.umgc.edu/d2l/le/calendar/1029479/event/10762512
+ /detailsview?ou=1029479#10762512
+LAST-MODIFIED:20240422T140000Z
+END:VEVENT
+END:VCALENDAR

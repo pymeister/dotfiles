@@ -1,0 +1,18 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:Project 3 - Due
+DTSTART:20240626T035959Z
+DTEND:20240626T045959Z
+DTSTAMP:20240530T221541Z
+UID:6606-10762363@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:See attached assignment\n\n\nAssignments:\nProject 3 - https:/
+ /learn.umgc.edu/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=1176365&db
+ =1642764\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176365/
+ event/10762363/detailsview?ou=1176365#10762363
+LAST-MODIFIED:20240422T091245Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,21 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY: Writing Assignment #5 -- Resume and Cover Letter with Summary of 
+ PARC  - Due
+DTSTART:20240703T035900Z
+DTEND:20240703T045900Z
+DTSTAMP:20240530T220954Z
+UID:6606-10762514@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:The assignment instructions can be accessed at the following l
+ ink:\nPDF - WRTG393_WA5_resume_coverletter_PARCsummary_ff_\n\n\n\n \n \n
+ \n\nAssignments:\n Writing Assignment #5 -- Resume and Cover Letter with S
+ ummary of PARC  - https://learn.umgc.edu/d2l/lms/dropbox/user/folder_submi
+ t_files.d2l?ou=1029479&db=1660492\n\n\nView event - https://learn.umgc.edu
+ /d2l/le/calendar/1029479/event/10762514/detailsview?ou=1029479#10762514
+LAST-MODIFIED:20240422T140000Z
+END:VEVENT
+END:VCALENDAR

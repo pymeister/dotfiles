@@ -1,0 +1,26 @@
+IMAPAccount gmail
+Host imap.gmail.com
+User k.lancemeister@gmail.com
+PassCmd "gpg2 -q --for-your-eyes-only --no-tty -d ~/.config/mu4e/mbsyncpass-acc1.gpg"
+AuthMechs LOGIN
+SSLType IMAPS
+CertificateFile /etc/ssl/certs/cert.pem
+
+
+# REMOTE STORAGE (USE THE IMAP ACCOUNT SPECIFIED ABOVE)
+IMAPStore gmail-remote
+Account gmail
+
+
+MaildirStore gmail-local
+Subfolders Verbatim
+Path ~/Mail/k.lancemeister-gmail/
+Inbox ~/Mail/k.lancemeister-gmail/Inbox
+
+Channel gmail
+Far :gmail-remote:
+Near :gmail-local:
+Patterns * ![Gmail]* "[Gmail]/Sent Mail" "[Gmail]/Starred" "[Gmail]/All Mail" "[Gmail]/Trash"
+Create Both
+Expunge Both
+SyncState *

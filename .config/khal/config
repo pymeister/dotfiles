@@ -1,0 +1,15 @@
+[calendars]
+
+[[umgc]]
+path = ~/.config/khal/calendars/umgc/
+type = calendar
+
+[locale]
+timeformat = %I:%M %p
+dateformat = %m/%d/%Y
+longdateformat = %m/%d/%Y
+datetimeformat = %m/%d/%Y %I:%M %p
+longdatetimeformat = %m/%d/%Y %I:%M %p
+
+[default]
+default_calendar = umgc

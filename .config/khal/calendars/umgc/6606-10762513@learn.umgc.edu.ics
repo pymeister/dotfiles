@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:Writing Assignment #4: Report to Supervisor - Due
+DTSTART:20240619T035900Z
+DTEND:20240619T045900Z
+DTSTAMP:20240530T220954Z
+UID:6606-10762513@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:The assignment instructions can be accessed at the following l
+ ink:\nPDF - WRTG393_WA4_Report_to_Supervisor_2024_f\n\n\n\nAssignments:\nW
+ riting Assignment #4: Report to Supervisor - https://learn.umgc.edu/d2l/lm
+ s/dropbox/user/folder_submit_files.d2l?ou=1029479&db=1660491\n\n\nView eve
+ nt - https://learn.umgc.edu/d2l/le/calendar/1029479/event/10762513/details
+ view?ou=1029479#10762513
+LAST-MODIFIED:20240422T140000Z
+END:VEVENT
+END:VCALENDAR

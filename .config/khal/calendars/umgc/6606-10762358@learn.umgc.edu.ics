@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:Week 3 Discussion - Availability Ends
+DTSTART:20240605T035959Z
+DTEND:20240605T045959Z
+DTSTAMP:20240530T221541Z
+UID:6606-10762358@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Choose one of the automatically graded programming projects fr
+ om either Chapter 21 or Chapter 22 of the Liang textbook. Implement the pr
+ oject that you have chosen and discuss any issues that arose in the proces
+ s of completing it. Include the Java code for your solution. Explain what 
+ lessons that you learned implementing that project.\n\n\nDiscussions:\nWee
+ k 3 Discussion - https://learn.umgc.edu/d2l/le/1176365/discussions/topics/
+ 4604055/View\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176
+ 365/event/10762358/detailsview?ou=1176365#10762358
+LAST-MODIFIED:20240422T090847Z
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,16 @@
+[general]
+status_path = "~/.vdirsyncer/status/"
+
+[pair umgc_calendar]
+a = "umgc_local"
+b = "umgc_remote"
+collections = ["from a", "from b"]
+
+[storage umgc_local]
+type = "filesystem"
+path = "~/.config/khal/calendars/umgc/"
+fileext = ".ics"
+
+[storage umgc_remote]
+type = "http"
+url = "https://learn.umgc.edu/d2l/le/calendar/feed/user/feed.ics?token=aasjkkmklajin2ow73b41"

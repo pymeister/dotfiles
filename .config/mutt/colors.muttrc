@@ -1,0 +1,66 @@
+# vim: filetype=neomuttrc
+# Dracula Theme for NeoMutt
+# https://draculatheme.com/
+
+# Default index colors:
+color index color103 default '.*'
+color index_author color210 default '.*'
+color index_number color141 default
+color index_subject color84 default '.*'
+
+# For new mail:
+color index color117 default "~N"
+color index_author color117 default "~N"
+color index_subject color117 default "~N"
+
+# Header colors:
+color header color231 default ".*"
+color header color212 default "^(From)"
+color header color84 default "^(Subject)"
+color header color231 default "^(CC|BCC)"
+
+mono bold bold
+mono underline underline
+mono indicator reverse
+mono error bold
+color normal default default
+color indicator color241 color231
+color sidebar_highlight color103 default
+color sidebar_divider color8 default
+color sidebar_flagged color210 default
+color sidebar_new color117 default
+color normal color231 default
+color error color212 default
+color tilde color231 default
+color message color231 default
+color markers color210 default
+color attachment color228 default
+color search color84 default
+color status color141 color236
+color hdrdefault color117 default
+color quoted color61 default
+color quoted1 color117 default
+color quoted2 color84 default
+color quoted3 color215 default
+color quoted4 color212 default
+color signature color212 default
+
+color body color231 default "[\-\.+_a-zA-Z0-9]+@[\-\.a-zA-Z0-9]+" # Email addresses
+color body color228 default "(https?|ftp)://[\-\.,/%~_:?&=\#a-zA-Z0-9]+" # URL
+color body color231 default "\`[^\`]*\`" # Green text between ` and `
+color body color231 default "^# \.*" # Headings as bold blue
+color body color231 default "^## \.*" # Subheadings as bold cyan
+color body color231 default "^### \.*" # Subsubheadings as bold green
+color body color231 default "^(\t| )*(-|\\*) \.*" # List items as yellow
+color body color231 default "[;:][-o][)/(|]" # emoticons
+color body color231 default "[;:][)(|]" # emoticons
+color body color231 default "[ ][*][^*]*[*][ ]?" # more emoticon?
+color body color231 default "[ ]?[*][^*]*[*][ ]" # more emoticon?
+color body color212 default "(BAD signature)"
+color body color61 default "(Good signature)"
+color body color231 default "^gpg: Good signature .*"
+color body color231 default "^gpg: "
+color body color231 color212 "^gpg: BAD signature from.*"
+mono body bold "^gpg: Good signature"
+mono body bold "^gpg: BAD signature from.*"
+color body color212 default "([a-z][a-z0-9+-]*://(((([a-z0-9_.!~*'();:&=+$,-]|%[0-9a-f][0-9a-f])*@)?((([a-z0-9]([a-z0-9-]*[a-z0-9])?)\\.)*([a-z]([a-z0-9-]*[a-z0-9])?)\\.?|[0-9]+\\.[0-9]+\\.[0-9]+\\.[0-9]+)(:[0-9]+)?)|([a-z0-9_.!~*'()$,;:@&=+-]|%[0-9a-f][0-9a-f])+)(/([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*(;([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*)*(/([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*(;([a-z0-9_.!~*'():@&=+$,-]|%[0-9a-f][0-9a-f])*)*)*)?(\\?([a-z0-9_.!~*'();/?:@&=+$,-]|%[0-9a-f][0-9a-f])*)?(#([a-z0-9_.!~*'();/?:@&=+$,-]|%[0-9a-f][0-9a-f])*)?|(www|ftp)\\.(([a-z0-9]([a-z0-9-]*[a-z0-9])?)\\.)*([a-z]([a-z0-9-]*[a-z0-9])?)\\.?(:[0-9]+)?(/([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*(;([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*)*(/([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*(;([-a-z0-9_.!~*'():@&=+$,]|%[0-9a-f][0-9a-f])*)*)*)?(\\?([-a-z0-9_.!~*'();/?:@&=+$,]|%[0-9a-f][0-9a-f])*)?(#([-a-z0-9_.!~*'();/?:@&=+$,]|%[0-9a-f][0-9a-f])*)?)[^].,:;!)? \t\r\n<>\"]"

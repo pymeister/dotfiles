@@ -1,0 +1,273 @@
+16/12/22 (11:20:49) | ERROR: Exception while getting cpu frequency!
+16/12/22 (11:20:49) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+16/12/22 (11:33:11) | ERROR: Exception while getting cpu frequency!
+16/12/22 (11:33:11) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+16/12/22 (11:40:10) | ERROR: Exception while getting cpu frequency!
+16/12/22 (11:40:10) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+14/01/23 (23:11:07) | ERROR: Exception while getting cpu frequency!
+14/01/23 (23:11:07) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+14/01/23 (23:13:09) | ERROR: Exception while getting cpu frequency!
+14/01/23 (23:13:09) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+14/01/23 (23:15:39) | ERROR: Exception while getting cpu frequency!
+14/01/23 (23:15:39) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+06/02/23 (08:44:03) | ERROR: Exception while getting cpu frequency!
+06/02/23 (08:44:03) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+19/11/23 (19:33:46) | ERROR: Exception while getting cpu frequency!
+19/11/23 (19:33:46) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+19/11/23 (19:44:50) | ERROR: Exception while getting cpu frequency!
+19/11/23 (19:44:50) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+19/11/23 (19:45:32) | ERROR: Exception while getting cpu frequency!
+19/11/23 (19:45:32) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+21/11/23 (14:31:27) | ERROR: Exception while getting cpu frequency!
+21/11/23 (14:31:27) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+21/11/23 (14:33:14) | ERROR: Exception while getting cpu frequency!
+21/11/23 (14:33:14) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+25/11/23 (00:29:32) | ERROR: Exception while getting cpu frequency!
+25/11/23 (00:29:32) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+08/01/24 (09:12:15) | ERROR: Exception while getting cpu frequency!
+08/01/24 (09:12:15) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+28/01/24 (20:57:42) | ERROR: Exception while getting cpu frequency!
+28/01/24 (20:57:42) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+26/03/24 (10:50:28) | ERROR: Exception while getting cpu frequency!
+26/03/24 (10:50:28) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+18/04/24 (23:43:10) | ERROR: Exception while getting cpu frequency!
+18/04/24 (23:43:10) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+18/04/24 (23:44:35) | ERROR: Exception while getting cpu frequency!
+18/04/24 (23:44:35) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+23/04/24 (10:51:19) | ERROR: Exception while getting cpu frequency!
+23/04/24 (10:51:19) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+03/06/24 (17:08:34) | ERROR: Exception while getting cpu frequency!
+03/06/24 (17:08:34) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+03/06/24 (17:11:54) | ERROR: Exception while getting cpu frequency!
+03/06/24 (17:11:54) | ERROR: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))
+Traceback (most recent call last):
+  File "/opt/homebrew/bin/bpytop", line 3080, in _collect
+    if CONFIG.show_cpu_freq and hasattr(psutil.cpu_freq(), "current"):
+                                        ^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/__init__.py", line 1864, in cpu_freq
+    ret = _psplatform.cpu_freq()
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/homebrew/Cellar/bpytop/1.0.68/libexec/lib/python3.11/site-packages/psutil/_psosx.py", line 179, in cpu_freq
+    curr, min_, max_ = cext.cpu_freq()
+                       ^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory (originated from sysctl(HW_CPU_FREQ))

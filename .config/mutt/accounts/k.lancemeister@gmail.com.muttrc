@@ -1,0 +1,21 @@
+# vim: filetype=neomuttrc
+# muttrc file for account k.lancemeister@gmail.com
+set imap_user = "k.lancemeister@gmail.com"
+set imap_pass = "vczy vich sdba base"
+set smtp_url = "smtps://k.lancemeister@gmail.com@smtp.gmail.com:465"
+set smtp_pass = "vczy vich sdba base"
+set smtp_authenticators = "login"
+set from = "k.lancemeister@gmail.com"
+set realname = "K. Lance Meister"
+set folder = "imaps://imap.gmail.com/"
+source /usr/local/share/mutt-wizard/switch.muttrc
+set spoolfile = "+INBOX"
+set record = "+[Gmail]/Sent Mail"
+set postponed = "+[Gmail]/Drafts"
+set trash = "+[Gmail]/Trash"
+
+
+macro index o "<shell-escape>mailsync k.lancemeister@gmail.com<enter>" "sync k.lancemeister@gmail.com"
+
+mailboxes "=INBOX" "=[Gmail]/Drafts" "=[Gmail]/Sent Mail" "=[Gmail]/Spam" "=[Gmail]/Starred" "=[Gmail]/Trash"
+

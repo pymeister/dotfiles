@@ -1,0 +1,20 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:Writing Assignment #1 -- Three Personas - Due
+DTSTART:20240529T035900Z
+DTEND:20240529T045900Z
+DTSTAMP:20240530T220954Z
+UID:6606-10762515@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:The assignment instructions can be accessed at the following l
+ ink:\nWRTG393_WA1_Personas_2024_ff_.pdf\n\n\nAssignments:\nWriting Assignm
+ ent #1 -- Three Personas - https://learn.umgc.edu/d2l/lms/dropbox/user/fol
+ der_submit_files.d2l?ou=1029479&db=1660488\n\n\nView event - https://learn
+ .umgc.edu/d2l/le/calendar/1029479/event/10762515/detailsview?ou=1029479#10
+ 762515
+LAST-MODIFIED:20240422T140000Z
+END:VEVENT
+END:VCALENDAR

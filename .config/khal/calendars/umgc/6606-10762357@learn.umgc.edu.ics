@@ -1,0 +1,22 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//PIMUTILS.ORG//NONSGML khal / icalendar //EN
+BEGIN:VEVENT
+SUMMARY:Week 1 Discussion - Availability Ends
+DTSTART:20240522T035959Z
+DTEND:20240522T045959Z
+DTSTAMP:20240530T221541Z
+UID:6606-10762357@learn.umgc.edu
+SEQUENCE:0
+CLASS:PUBLIC
+DESCRIPTION:Choose one of the automatically graded programming projects fr
+ om Chapter 20 of the Liang textbook. Implement the project that you have c
+ hosen and discuss any issues that arose in the process of completing it. I
+ nclude the Java code for your solution. Explain what lessons that you lear
+ ned implementing that project.\n\n\nDiscussions:\nWeek 1 Discussion - http
+ s://learn.umgc.edu/d2l/le/1176365/discussions/topics/4604054/View\n\n\nVie
+ w event - https://learn.umgc.edu/d2l/le/calendar/1176365/event/10762357/de
+ tailsview?ou=1176365#10762357
+LAST-MODIFIED:20240422T090804Z
+END:VEVENT
+END:VCALENDAR

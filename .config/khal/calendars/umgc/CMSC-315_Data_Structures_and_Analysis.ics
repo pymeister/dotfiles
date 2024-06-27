@@ -1,0 +1,192 @@
+BEGIN:VCALENDAR
+PRODID:-//D2L//NONSGML v1.0//EN
+VERSION:2.0
+METHOD:PUBLISH
+X-WR-CALNAME:CMSC 315 6380 Data Structures and Analysis (2245)
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 1 Quiz - Availability Ends
+DESCRIPTION:Grades:\nWeek 1 Quiz\n\n\nView event - https://learn.umgc.edu/d
+	2l/le/calendar/1176365/event/10775526/detailsview?ou=1176365#10775526
+CLASS:PUBLIC
+DTSTART:20240522T035900Z
+DTEND:20240522T035900Z
+UID:6606-10775526@learn.umgc.edu
+SEQUENCE:1
+LAST-MODIFIED:20240504T153613Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 1 Discussion - Availability Ends
+DESCRIPTION:Choose one of the automatically graded programming projects fro
+	m Chapter 20 of the Liang textbook. Implement the project that you have cho
+	sen and discuss any issues that arose in the process of completing it. Incl
+	ude the Java code for your solution. Explain what lessons that you learned 
+	implementing that project.\n\n\nDiscussions:\nWeek 1 Discussion - https://l
+	earn.umgc.edu/d2l/le/1176365/discussions/topics/4604054/View\n\n\nView even
+	t - https://learn.umgc.edu/d2l/le/calendar/1176365/event/10762357/detailsvi
+	ew?ou=1176365#10762357
+CLASS:PUBLIC
+DTSTART:20240522T035959Z
+DTEND:20240522T035959Z
+UID:6606-10762357@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240422T090804Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 2 Quiz - Availability Ends
+DESCRIPTION:Grades:\nWeek 2 Quiz\n\n\nView event - https://learn.umgc.edu/d
+	2l/le/calendar/1176365/event/10775531/detailsview?ou=1176365#10775531
+CLASS:PUBLIC
+DTSTART:20240529T035900Z
+DTEND:20240529T035900Z
+UID:6606-10775531@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240504T153727Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Project 1 - Due
+DESCRIPTION:See attached description\n\n\nAssignments:\nProject 1 - https:/
+	/learn.umgc.edu/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=1176365&db=
+	1642762\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176365/ev
+	ent/10762361/detailsview?ou=1176365#10762361
+CLASS:PUBLIC
+DTSTART:20240529T035959Z
+DTEND:20240529T035959Z
+UID:6606-10762361@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240422T091204Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 3 Quiz - Availability Ends
+DESCRIPTION:Grades:\nWeek 3 Quiz - https://learn.umgc.edu/d2l/lms/grades/in
+	dex.d2l?ou=1176365\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar
+	/1176365/event/10775532/detailsview?ou=1176365#10775532
+CLASS:PUBLIC
+DTSTART:20240605T035900Z
+DTEND:20240605T035900Z
+UID:6606-10775532@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240504T153812Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 3 Discussion - Availability Ends
+DESCRIPTION:Choose one of the automatically graded programming projects fro
+	m either Chapter 21 or Chapter 22 of the Liang textbook. Implement the proj
+	ect that you have chosen and discuss any issues that arose in the process o
+	f completing it. Include the Java code for your solution. Explain what less
+	ons that you learned implementing that project.\n\n\nDiscussions:\nWeek 3 D
+	iscussion - https://learn.umgc.edu/d2l/le/1176365/discussions/topics/460405
+	5/View\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176365/eve
+	nt/10762358/detailsview?ou=1176365#10762358
+CLASS:PUBLIC
+DTSTART:20240605T035959Z
+DTEND:20240605T035959Z
+UID:6606-10762358@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240422T090847Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 4 Quiz - Availability Ends
+DESCRIPTION:Grades:\nWeek 4 Quiz - https://learn.umgc.edu/d2l/lms/grades/in
+	dex.d2l?ou=1176365\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar
+	/1176365/event/10775536/detailsview?ou=1176365#10775536
+CLASS:PUBLIC
+DTSTART:20240612T035900Z
+DTEND:20240612T035900Z
+UID:6606-10775536@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240504T153916Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Project 2  - Due
+DESCRIPTION:See attached assignment\n\n\nAssignments:\nProject 2  - https:/
+	/learn.umgc.edu/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=1176365&db=
+	1642763\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176365/ev
+	ent/10762362/detailsview?ou=1176365#10762362
+CLASS:PUBLIC
+DTSTART:20240612T035959Z
+DTEND:20240612T035959Z
+UID:6606-10762362@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240422T091224Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 5 Quiz - Availability Ends
+DESCRIPTION:Grades:\nWeek 5 Quiz - https://learn.umgc.edu/d2l/lms/grades/in
+	dex.d2l?ou=1176365\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar
+	/1176365/event/10775540/detailsview?ou=1176365#10775540
+CLASS:PUBLIC
+DTSTART:20240619T035900Z
+DTEND:20240619T035900Z
+UID:6606-10775540@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240504T153950Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 5 Discusssion - Availability Ends
+DESCRIPTION:Choose one of the automatically graded programming projects fro
+	m Chapter 23 or Chapter 24 of the Liang textbook. Implement the project tha
+	t you have chosen and discuss any issues that arose in the process of compl
+	eting it. Include the Java code for your solution. Explain what lessons tha
+	t you learned implementing that project.\n\n\nDiscussions:\nWeek 5 Discusss
+	ion - https://learn.umgc.edu/d2l/le/1176365/discussions/topics/4604056/View
+	\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176365/event/107
+	62359/detailsview?ou=1176365#10762359
+CLASS:PUBLIC
+DTSTART:20240619T035959Z
+DTEND:20240619T035959Z
+UID:6606-10762359@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240422T090917Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Week 6 Quiz - Availability Ends
+DESCRIPTION:Grades:\nWeek 6 Quiz - https://learn.umgc.edu/d2l/lms/grades/in
+	dex.d2l?ou=1176365\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar
+	/1176365/event/10775542/detailsview?ou=1176365#10775542
+CLASS:PUBLIC
+DTSTART:20240626T035900Z
+DTEND:20240626T035900Z
+UID:6606-10775542@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240504T154013Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Project 3 - Due
+DESCRIPTION:See attached assignment\n\n\nAssignments:\nProject 3 - https://
+	learn.umgc.edu/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=1176365&db=1
+	642764\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176365/eve
+	nt/10762363/detailsview?ou=1176365#10762363
+CLASS:PUBLIC
+DTSTART:20240626T035959Z
+DTEND:20240626T035959Z
+UID:6606-10762363@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240422T091245Z
+END:VEVENT
+BEGIN:VEVENT
+DTSTAMP:20240530T221541Z
+SUMMARY:Project 4 - Due
+DESCRIPTION:See attached assignment\n\n\nAssignments:\nProject 4 - https://
+	learn.umgc.edu/d2l/lms/dropbox/user/folder_submit_files.d2l?ou=1176365&db=1
+	642765\n\n\nView event - https://learn.umgc.edu/d2l/le/calendar/1176365/eve
+	nt/10762364/detailsview?ou=1176365#10762364
+CLASS:PUBLIC
+DTSTART:20240710T035959Z
+DTEND:20240710T035959Z
+UID:6606-10762364@learn.umgc.edu
+SEQUENCE:0
+LAST-MODIFIED:20240422T091304Z
+END:VEVENT
+END:VCALENDAR
